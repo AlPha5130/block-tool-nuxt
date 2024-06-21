@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     public: {},
   },
   alias: {
-    cookie: "cookie",
+    cookie: 'cookie',
   },
   modules: ['@pinia/nuxt', '@vueuse/nuxt', '@hebilicious/authjs-nuxt'],
 })

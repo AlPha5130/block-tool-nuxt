@@ -1,7 +1,5 @@
 <script setup lang="ts">
 const { signIn, signOut, status, session, cookies } = useAuth()
-
-
 </script>
 
 <template lang="pug">
@@ -13,5 +11,4 @@ const { signIn, signOut, status, session, cookies } = useAuth()
     pre {{ session?.user }}
     pre {{ cookies }}
   .action(v-if='session?.user')
-    
 </template>
