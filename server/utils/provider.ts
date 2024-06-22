@@ -197,16 +197,18 @@ export default function ZhMinecraftWiki<P extends WikiProfile>(): OAuthConfig<P>
     id: 'minecraftwiki',
     name: 'ZH Minecraft Wiki',
     type: 'oauth',
-    token: 'https://zh.minecraft.wiki/rest.php/oauth2/access_token',
-    userinfo: 'https://zh.minecraft.wiki/rest.php/oauth2/resource/profile',
-    authorization: 'https://zh.minecraft.wiki/rest.php/oauth2/authorize?scope=',
+    token: 'https://preview-wiki.bedev.cn/w/rest.php/oauth2/access_token',
+    userinfo: 'https://preview-wiki.bedev.cn/w/rest.php/oauth2/resource/profile',
+    authorization: 'https://preview-wiki.bedev.cn/w/rest.php/oauth2/authorize?scope=',
     profile(profile) {
       return {
         id: profile.sub,
         name: profile.username,
         email: profile.email,
-        image: null
+        image: null,
       }
     },
+    clientId: useRuntimeConfig().clientId,
+    clientSecret: useRuntimeConfig().clientSecret,
   }
 }
