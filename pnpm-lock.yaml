@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@auth/core':
         specifier: ^0.34.1
-        version: 0.34.1
+        version: 0.34.2
       '@hebilicious/authjs-nuxt':
         specifier: ^0.3.5
-        version: 0.3.5(@auth/core@0.34.1)(magicast@0.3.4)(nuxt@3.12.4(@parcel/watcher@2.4.1)(@types/node@20.14.11)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(sass@1.77.8)(terser@5.31.3)(typescript@5.5.3)(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)))(rollup@4.18.1)
+        version: 0.3.5(@auth/core@0.34.2)(magicast@0.3.4)(nuxt@3.12.4(@parcel/watcher@2.4.1)(@types/node@20.14.11)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(sass@1.77.8)(terser@5.31.3)(typescript@5.5.3)(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)))(rollup@4.18.1)
       nuxt:
         specifier: ^3.12.3
         version: 3.12.4(@parcel/watcher@2.4.1)(@types/node@20.14.11)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(sass@1.77.8)(terser@5.31.3)(typescript@5.5.3)(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3))
@@ -64,8 +64,8 @@ packages:
   '@antfu/utils@0.7.10':
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==}
 
-  '@auth/core@0.34.1':
-    resolution: {integrity: sha512-tuYU2VIbI8rFbkSwP710LmybB2FXJsPN7j3sjRVfN9SXVQBK2ej6LdewQaofpBGp4Mk+cC2UeiGNH0or4tgaeA==}
+  '@auth/core@0.34.2':
+    resolution: {integrity: sha512-KywHKRgLiF3l7PLyL73fjLSIBe1YNcA6sMeew4yMP6cfCWGXZrkkXd32AjRi1hlJ9nvovUBGZHvbn+LijO6ZeQ==}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
       '@simplewebauthn/server': ^9.0.2
@@ -1105,17 +1105,17 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
 
-  '@volar/language-core@2.4.0-alpha.17':
-    resolution: {integrity: sha512-FF9g89QZUVJpgZvrNpA+v5Sgo7MdUjeA1celxCe4nFTpfp4P/FUdZ1lgeYy7ZS5r13oC4Ei6HqWpfLN7PFM60w==}
+  '@volar/language-core@2.4.0-alpha.18':
+    resolution: {integrity: sha512-JAYeJvYQQROmVRtSBIczaPjP3DX4QW1fOqW1Ebs0d3Y3EwSNRglz03dSv0Dm61dzd0Yx3WgTW3hndDnTQqgmyg==}
 
-  '@volar/language-service@2.4.0-alpha.17':
-    resolution: {integrity: sha512-rq+O/Nf7krrq611khGOH6+f9c5i7vQiDPXOLuGks2bBWjPUqaN7dR8agMm+9BTlAj0IItArKqUncYr5mYU78kQ==}
+  '@volar/language-service@2.4.0-alpha.18':
+    resolution: {integrity: sha512-EuetrtbEtudi9buinWAG5U3Jam5dY27zXd/7GYnx542kBwanWOBM8i4DAQd0z7M11fOxXgybxPA933uaSyaOog==}
 
   '@volar/source-map@2.4.0-alpha.16':
     resolution: {integrity: sha512-sL9vNG7iR2hiKZor7UkD5Sufu3QCia4cbp2gX/nGRNSdaPbhOpdAoavwlBm0PrVkpiA19NZuavZoobD8krviFg==}
 
-  '@volar/source-map@2.4.0-alpha.17':
-    resolution: {integrity: sha512-6LOuR2nIloQCSNMNcUPRPLjL5CInIE1pYZ8lifOCSxQRiz8GcWaOm34kAvdm7pzPQqMRHBBnV/Ihkdt/w7oWAQ==}
+  '@volar/source-map@2.4.0-alpha.18':
+    resolution: {integrity: sha512-MTeCV9MUwwsH0sNFiZwKtFrrVZUK6p8ioZs3xFzHc2cvDXHWlYN3bChdQtwKX+FY2HG6H3CfAu1pKijolzIQ8g==}
 
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
@@ -3548,7 +3548,7 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
-  '@auth/core@0.34.1':
+  '@auth/core@0.34.2':
     dependencies:
       '@panva/hkdf': 1.2.1
       '@types/cookie': 0.6.0
@@ -4005,9 +4005,9 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hebilicious/authjs-nuxt@0.3.5(@auth/core@0.34.1)(magicast@0.3.4)(nuxt@3.12.4(@parcel/watcher@2.4.1)(@types/node@20.14.11)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(sass@1.77.8)(terser@5.31.3)(typescript@5.5.3)(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)))(rollup@4.18.1)':
+  '@hebilicious/authjs-nuxt@0.3.5(@auth/core@0.34.2)(magicast@0.3.4)(nuxt@3.12.4(@parcel/watcher@2.4.1)(@types/node@20.14.11)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(sass@1.77.8)(terser@5.31.3)(typescript@5.5.3)(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)))(rollup@4.18.1)':
     dependencies:
-      '@auth/core': 0.34.1
+      '@auth/core': 0.34.2
       '@nuxt/kit': 3.12.3(magicast@0.3.4)(rollup@4.18.1)
       '@panva/hkdf': 1.2.1
       cookie: 0.5.0
@@ -4628,20 +4628,20 @@ snapshots:
       vite: 5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)
       vue: 3.4.33(typescript@5.5.3)
 
-  '@volar/language-core@2.4.0-alpha.17':
+  '@volar/language-core@2.4.0-alpha.18':
     dependencies:
-      '@volar/source-map': 2.4.0-alpha.17
+      '@volar/source-map': 2.4.0-alpha.18
 
-  '@volar/language-service@2.4.0-alpha.17':
+  '@volar/language-service@2.4.0-alpha.18':
     dependencies:
-      '@volar/language-core': 2.4.0-alpha.17
+      '@volar/language-core': 2.4.0-alpha.18
       vscode-languageserver-protocol: 3.17.5
       vscode-languageserver-textdocument: 1.0.11
       vscode-uri: 3.0.8
 
   '@volar/source-map@2.4.0-alpha.16': {}
 
-  '@volar/source-map@2.4.0-alpha.17': {}
+  '@volar/source-map@2.4.0-alpha.18': {}
 
   '@vscode/l10n@0.0.18': {}
 
@@ -7213,21 +7213,21 @@ snapshots:
 
   void-elements@3.1.0: {}
 
-  volar-service-html@0.0.59(@volar/language-service@2.4.0-alpha.17):
+  volar-service-html@0.0.59(@volar/language-service@2.4.0-alpha.18):
     dependencies:
       vscode-html-languageservice: 5.3.0
       vscode-languageserver-textdocument: 1.0.11
       vscode-uri: 3.0.8
     optionalDependencies:
-      '@volar/language-service': 2.4.0-alpha.17
+      '@volar/language-service': 2.4.0-alpha.18
 
   volar-service-pug@0.0.59:
     dependencies:
-      '@volar/language-service': 2.4.0-alpha.17
+      '@volar/language-service': 2.4.0-alpha.18
       muggle-string: 0.4.1
       pug-lexer: 5.0.1
       pug-parser: 6.0.0
-      volar-service-html: 0.0.59(@volar/language-service@2.4.0-alpha.17)
+      volar-service-html: 0.0.59(@volar/language-service@2.4.0-alpha.18)
       vscode-html-languageservice: 5.3.0
       vscode-languageserver-textdocument: 1.0.11
 
