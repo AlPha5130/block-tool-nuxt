@@ -16,7 +16,7 @@
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"
   },
-  "packageManager": "pnpm@9.6.0",
+  "packageManager": "pnpm@9.11.0",
   "devDependencies": {
     "@pinia/nuxt": "^0.5.1",
     "@prettier/plugin-pug": "^3.0.0",
