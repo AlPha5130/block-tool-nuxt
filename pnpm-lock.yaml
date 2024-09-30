@@ -26,7 +26,7 @@ importers:
     devDependencies:
       '@pinia/nuxt':
         specifier: ^0.5.4
-        version: 0.5.4(magicast@0.3.5)(rollup@4.22.5)(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2))(webpack-sources@3.2.3)
+        version: 0.5.5(magicast@0.3.5)(rollup@4.22.5)(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2))(webpack-sources@3.2.3)
       '@prettier/plugin-pug':
         specifier: ^3.1.0
         version: 3.1.0(prettier@3.3.3)
@@ -41,7 +41,7 @@ importers:
         version: 11.1.0(magicast@0.3.5)(nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.3)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.22.5)(sass@1.79.4)(terser@5.34.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.3)(sass@1.79.4)(terser@5.34.0))(webpack-sources@3.2.3))(rollup@4.22.5)(vue@3.5.10(typescript@5.6.2))(webpack-sources@3.2.3)
       pinia:
         specifier: ^2.2.2
-        version: 2.2.2(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2))
+        version: 2.2.3(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2))
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -843,8 +843,8 @@ packages:
     resolution: {integrity: sha512-HNjmfLQEVRZmHRET336f20H/8kOozUGwk7yajvsonjNxbj2wBTK1WsQuHkD5yYh9RxFGL2EyDHryOihOwUoKDA==}
     engines: {node: '>= 10.0.0'}
 
-  '@pinia/nuxt@0.5.4':
-    resolution: {integrity: sha512-nNEs2pq6+Ji5qIyRwmeD9LUdctL8aJ8QMVLTYxUc16cXEOcIIN+MSA8Xudsd0lVETYgEAROT5HiBHnOYRDY3yQ==}
+  '@pinia/nuxt@0.5.5':
+    resolution: {integrity: sha512-wjxS7YqIesh4OLK+qE3ZjhdOJ5pYZQ+VlEmZNtTwzQn1Kavei/khovx7mzXVXNA/mvSPXVhb9xBzhyS3XMURtw==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -2546,8 +2546,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pinia@2.2.2:
-    resolution: {integrity: sha512-ja2XqFWZC36mupU4z1ZzxeTApV7DOw44cV4dhQ9sGwun+N89v/XP7+j7q6TanS1u1tdbK4r+1BUx7heMaIdagA==}
+  pinia@2.2.3:
+    resolution: {integrity: sha512-t2X9y1FT0h5zHmi9PsVr0LMNC0DXdPiYxX6zM5IyZHoWFjLq/LGpM1OVpGhXTPHjUh0XaFlsQd3GvPvGGNLQnw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -3178,6 +3178,9 @@ packages:
 
   unimport@3.13.0:
     resolution: {integrity: sha512-0WkKsLy8jkcnB38VQdAGvF0N2trJyDbUuHsfXcyrspwgwWTIThiMpvnDNZMVsuNc11SwT2GYzcQ2RnI1TY/xcw==}
+
+  unimport@3.13.1:
+    resolution: {integrity: sha512-nNrVzcs93yrZQOW77qnyOVHtb68LegvhYFwxFMfuuWScmwQmyVCG/NBuN8tYsaGzgQUVYv34E/af+Cc9u4og4A==}
 
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
@@ -4157,7 +4160,7 @@ snapshots:
       semver: 7.6.3
       ufo: 1.5.4
       unctx: 2.3.1(webpack-sources@3.2.3)
-      unimport: 3.13.0(rollup@4.22.5)(webpack-sources@3.2.3)
+      unimport: 3.13.1(rollup@4.22.5)(webpack-sources@3.2.3)
       untyped: 1.5.0
     transitivePeerDependencies:
       - magicast
@@ -4333,10 +4336,10 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.4.1
       '@parcel/watcher-win32-x64': 2.4.1
 
-  '@pinia/nuxt@0.5.4(magicast@0.3.5)(rollup@4.22.5)(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2))(webpack-sources@3.2.3)':
+  '@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.22.5)(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2))(webpack-sources@3.2.3)':
     dependencies:
       '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.22.5)(webpack-sources@3.2.3)
-      pinia: 2.2.2(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2))
+      pinia: 2.2.3(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - magicast
@@ -6283,7 +6286,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pinia@2.2.2(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2)):
+  pinia@2.2.3(typescript@5.6.2)(vue@3.5.10(typescript@5.6.2)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.10(typescript@5.6.2)
@@ -6956,6 +6959,25 @@ snapshots:
   unicorn-magic@0.1.0: {}
 
   unimport@3.13.0(rollup@4.22.5)(webpack-sources@3.2.3):
+    dependencies:
+      '@rollup/pluginutils': 5.1.2(rollup@4.22.5)
+      acorn: 8.12.1
+      escape-string-regexp: 5.0.0
+      estree-walker: 3.0.3
+      fast-glob: 3.3.2
+      local-pkg: 0.5.0
+      magic-string: 0.30.11
+      mlly: 1.7.1
+      pathe: 1.1.2
+      pkg-types: 1.2.0
+      scule: 1.3.0
+      strip-literal: 2.1.0
+      unplugin: 1.14.1(webpack-sources@3.2.3)
+    transitivePeerDependencies:
+      - rollup
+      - webpack-sources
+
+  unimport@3.13.1(rollup@4.22.5)(webpack-sources@3.2.3):
     dependencies:
       '@rollup/pluginutils': 5.1.2(rollup@4.22.5)
       acorn: 8.12.1
