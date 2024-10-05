@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@auth/core':
-        specifier: ^0.35.2
-        version: 0.35.3
+        specifier: ^0.36.0
+        version: 0.36.0
       '@hebilicious/authjs-nuxt':
         specifier: ^0.3.5
-        version: 0.3.5(@auth/core@0.35.3)(magicast@0.3.5)(nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.3)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.22.5)(sass@1.79.4)(terser@5.34.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.3)(sass@1.79.4)(terser@5.34.0))(webpack-sources@3.2.3))(rollup@4.22.5)(webpack-sources@3.2.3)
+        version: 0.3.5(@auth/core@0.36.0)(magicast@0.3.5)(nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.3)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.22.5)(sass@1.79.4)(terser@5.34.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.3)(sass@1.79.4)(terser@5.34.0))(webpack-sources@3.2.3))(rollup@4.22.5)(webpack-sources@3.2.3)
       nuxt:
         specifier: ^3.13.2
         version: 3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.3)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.22.5)(sass@1.79.4)(terser@5.34.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.3)(sass@1.79.4)(terser@5.34.0))(webpack-sources@3.2.3)
@@ -64,8 +64,8 @@ packages:
   '@antfu/utils@0.7.10':
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==}
 
-  '@auth/core@0.35.3':
-    resolution: {integrity: sha512-g6qfiqU4OtyvIEZ8J7UoIwAxEnNnLJV0/f/DW41U+4G5nhBlaCrnKhawJIJpU0D3uavXLeDT3B0BkjtiimvMDA==}
+  '@auth/core@0.36.0':
+    resolution: {integrity: sha512-tK+TEYHdM0nkW2uUxAZylpKk2nIf3jsAWzi920E5irxJlymihWzI8nQcz9McfmKux7lmtdpC6TiysayFP7sLYg==}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
       '@simplewebauthn/server': ^9.0.2
@@ -1477,8 +1477,8 @@ packages:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
     engines: {node: '>= 0.6'}
 
-  cookie@0.6.0:
-    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
+  cookie@0.7.1:
+    resolution: {integrity: sha512-6DnInpx7SJ2AK3+CTUE/ZM0vWTUboZCegxhC2xiIydHR9jNuTAASBrfEpHhiGOZw/nX51bHt6YQl8jsGo4y/0w==}
     engines: {node: '>= 0.6'}
 
   copy-anything@3.0.5:
@@ -3534,11 +3534,11 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
-  '@auth/core@0.35.3':
+  '@auth/core@0.36.0':
     dependencies:
       '@panva/hkdf': 1.2.1
       '@types/cookie': 0.6.0
-      cookie: 0.6.0
+      cookie: 0.7.1
       jose: 5.9.3
       oauth4webapi: 2.17.0
       preact: 10.11.3
@@ -3965,9 +3965,9 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hebilicious/authjs-nuxt@0.3.5(@auth/core@0.35.3)(magicast@0.3.5)(nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.3)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.22.5)(sass@1.79.4)(terser@5.34.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.3)(sass@1.79.4)(terser@5.34.0))(webpack-sources@3.2.3))(rollup@4.22.5)(webpack-sources@3.2.3)':
+  '@hebilicious/authjs-nuxt@0.3.5(@auth/core@0.36.0)(magicast@0.3.5)(nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.3)(encoding@0.1.13)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.22.5)(sass@1.79.4)(terser@5.34.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.3)(sass@1.79.4)(terser@5.34.0))(webpack-sources@3.2.3))(rollup@4.22.5)(webpack-sources@3.2.3)':
     dependencies:
-      '@auth/core': 0.35.3
+      '@auth/core': 0.36.0
       '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.22.5)(webpack-sources@3.2.3)
       '@panva/hkdf': 1.2.1
       cookie: 0.5.0
@@ -5038,7 +5038,7 @@ snapshots:
 
   cookie@0.5.0: {}
 
-  cookie@0.6.0: {}
+  cookie@0.7.1: {}
 
   copy-anything@3.0.5:
     dependencies:
