@@ -2,9 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
-    authJs: {
-      secret: 'INVALID',
-    },
+    authSecret: 'INVALID',
     clientId: 'INVALID',
     clientSecret: 'INVALID',
     public: {},
