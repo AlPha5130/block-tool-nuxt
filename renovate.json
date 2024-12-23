@@ -4,13 +4,25 @@
   "packageRules": [
     {
       "groupName": "dev",
-      "matchPackageNames": ["typescript", "prettier", "pug", "sass", "@vue/language-plugin-pug"],
-      "matchPackagePatterns": ["^@prettier/"]
+      "matchPackageNames": [
+        "typescript",
+        "prettier",
+        "pug",
+        "sass",
+        "@vue/language-plugin-pug",
+        "/^@prettier//"
+      ]
     },
     {
       "groupName": "framework",
-      "matchPackageNames": ["nuxt", "vue", "vue-router", "pinia"],
-      "matchPackagePatterns": ["^@vueuse/", "^@pinia/"]
+      "matchPackageNames": [
+        "nuxt",
+        "vue",
+        "vue-router",
+        "pinia",
+        "/^@vueuse//",
+        "/^@pinia//"
+      ]
     },
     {
       "groupName": "lib",
