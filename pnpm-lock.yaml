@@ -29,7 +29,7 @@ importers:
         version: 3.2.1(prettier@3.5.1)
       '@vue/language-plugin-pug':
         specifier: ^2.2.0
-        version: 2.2.0
+        version: 2.2.2
       '@vueuse/core':
         specifier: ^12.6.0
         version: 12.6.0(typescript@5.7.3)
@@ -898,8 +898,8 @@ packages:
   '@vue/devtools-shared@7.7.2':
     resolution: {integrity: sha512-uBFxnp8gwW2vD6FrJB8JZLUzVb6PNRG0B0jBnHsOH8uKyva2qINY8PTF5Te4QlTbMDqU5K6qtJDr6cNsKWhbOA==}
 
-  '@vue/language-plugin-pug@2.2.0':
-    resolution: {integrity: sha512-DcE08ZGP64aSUUA6iTE65cN1C2bsdlAFOaWEV33Yfdov6XRpScjzY42IRayTUHo4oJkcvbCJiHNr3RiW1XXgRw==}
+  '@vue/language-plugin-pug@2.2.2':
+    resolution: {integrity: sha512-9QTJkbfuNL2vLplD8bF9ms5rr/wVYLsq/VNgHrPcDiKiGFvMnaAX42rdRaa4DDJBXETO2ryu4jm1mt2WTAa7aw==}
 
   '@vue/reactivity@3.5.13':
     resolution: {integrity: sha512-NaCwtw8o48B9I6L1zl2p41OHo/2Z4wqYGGIK1Khu5T7yxrn+ATOixn/Udn2m+6kZKB/J7cuT9DbWWhRxqixACg==}
@@ -4303,7 +4303,7 @@ snapshots:
     dependencies:
       rfdc: 1.4.1
 
-  '@vue/language-plugin-pug@2.2.0':
+  '@vue/language-plugin-pug@2.2.2':
     dependencies:
       '@volar/source-map': 2.4.11
       volar-service-pug: 0.0.62
