@@ -6,13 +6,11 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-04-03',
   runtimeConfig: {
-    authSecret: 'INVALID',
-    clientId: 'INVALID',
-    clientSecret: 'INVALID',
+    sessionPassword: 'INVALID',
     public: {},
   },
   alias: {
     cookie: 'cookie',
   },
-  modules: ['@pinia/nuxt', '@vueuse/nuxt'],
+  modules: ['@pinia/nuxt', '@vueuse/nuxt', 'nuxt-auth-utils'],
 })
