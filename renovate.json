@@ -3,7 +3,7 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
-      "groupName": "dev",
+      "groupName": "dev dependencies",
       "matchPackageNames": [
         "typescript",
         "prettier",
@@ -25,8 +25,12 @@
       ]
     },
     {
-      "groupName": "lib",
-      "matchPackageNames": ["@hebilicious/authjs-nuxt", "@auth/core"]
+      "groupName": "types",
+      "matchPackageNames": ["/^@types//"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     }
   ]
 }
