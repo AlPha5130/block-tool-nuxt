@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "nuxt": "^3.17.2",
-    "nuxt-auth-utils": "0.5.20",
+    "nuxt-auth-utils": "0.5.23",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   },
