@@ -13,7 +13,6 @@ export default {
   trailingComma: 'es5',
 
   pugAttributeSeparator: 'as-needed',
-  pugSortAttributes: 'asc',
 
   vueIndentScriptAndStyle: false,
 }
