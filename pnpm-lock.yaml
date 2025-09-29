@@ -18,8 +18,8 @@ importers:
         specifier: ^7.16.0
         version: 7.16.0(@codemirror/language@6.11.3)(@codemirror/state@6.5.2)(@codemirror/view@6.38.4)(prosemirror-model@1.25.3)(prosemirror-state@1.4.3)(prosemirror-view@1.41.2)(typescript@5.9.2)(vue@3.5.22(typescript@5.9.2))
       '@netlify/nuxt':
-        specifier: 0.1.17
-        version: 0.1.17(db0@0.3.2(drizzle-orm@0.44.5(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.3)
+        specifier: 0.1.18
+        version: 0.1.18(db0@0.3.2(drizzle-orm@0.44.5(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.3)
       check-password-strength:
         specifier: ^3.0.0
         version: 3.0.0
@@ -1178,8 +1178,8 @@ packages:
     resolution: {integrity: sha512-VfjimnTRvFZ+8Ul/r4AlPMjBPK7+qZZuKli/el4MVwqt7+pXKrx3YkFPwT1XtoahqNJ8Mm2bZQzM8JB34PUxrA==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/nuxt@0.1.17':
-    resolution: {integrity: sha512-1zqg1i/qNUoHMYOwih0VbgdI77C/bidn7byeoIFYyV3r6Ass4Sno74QNqEbvyfb3TlZwKhVNsG+xoLTuvrrmpw==}
+  '@netlify/nuxt@0.1.18':
+    resolution: {integrity: sha512-mUeZ2yNdpkNScOHHXOMUom6XO8BHSlqLjdaJut0nIu3fOz8m3DSUi1dPZlcM3j07co1DwNZuNxmr5J8MbX4qZQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   '@netlify/open-api@2.38.0':
@@ -7869,7 +7869,7 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@netlify/nuxt@0.1.17(db0@0.3.2(drizzle-orm@0.44.5(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.3)':
+  '@netlify/nuxt@0.1.18(db0@0.3.2(drizzle-orm@0.44.5(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.3)':
     dependencies:
       '@netlify/dev': 4.5.11(db0@0.3.2(drizzle-orm@0.44.5(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.0)(rollup@4.52.3)
       '@netlify/dev-utils': 4.2.0
