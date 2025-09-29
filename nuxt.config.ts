@@ -10,10 +10,21 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    sessionPassword: 'INVALID',
+    oauth: {
+      github: {
+        clientId: '',
+        clientSecret: '',
+      },
+    },
     public: {},
   },
-  modules: ['@vueuse/nuxt', 'nuxt-auth-utils', '@nuxtjs/i18n', '@unocss/nuxt'],
+  modules: [
+    '@vueuse/nuxt',
+    'nuxt-auth-utils',
+    '@nuxtjs/i18n',
+    '@unocss/nuxt',
+    '@netlify/nuxt',
+  ],
   routeRules: {
     '/auth': { redirect: '/auth/login' },
   },

@@ -8,21 +8,14 @@
         "typescript",
         "prettier",
         "pug",
-        "sass",
+        "sass-embedded",
         "@vue/language-plugin-pug",
         "/^@prettier//"
       ]
     },
     {
       "groupName": "framework",
-      "matchPackageNames": [
-        "nuxt",
-        "vue",
-        "vue-router",
-        "pinia",
-        "/^@vueuse//",
-        "/^@pinia//"
-      ]
+      "matchPackageNames": ["nuxt", "vue", "vue-router", "pinia", "/^@vueuse//", "/^@pinia//"]
     },
     {
       "groupName": "types",
