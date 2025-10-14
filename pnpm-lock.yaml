@@ -18,8 +18,8 @@ importers:
         specifier: ^7.16.0
         version: 7.17.1(@codemirror/language@6.11.3)(@codemirror/state@6.5.2)(@codemirror/view@6.38.5)(prosemirror-model@1.25.3)(prosemirror-state@1.4.3)(prosemirror-view@1.41.3)(typescript@5.9.3)(vue@3.5.22(typescript@5.9.3))
       '@netlify/nuxt':
-        specifier: 0.2.0
-        version: 0.2.0(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.4)
+        specifier: 0.2.1
+        version: 0.2.1(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.4)
       check-password-strength:
         specifier: ^3.0.0
         version: 3.0.0
@@ -1150,8 +1150,8 @@ packages:
     resolution: {integrity: sha512-vZAL8pMuj3yPQlmHSgyaA/UQFxc6pZgU0LucFJ1+IPWGJtIzBXHRvuR4acpoP72HtyQPUHJ42s7U9GaaSGVNHg==}
     engines: {node: ^18.14.0 || >=20}
 
-  '@netlify/dev@4.6.0':
-    resolution: {integrity: sha512-NDOD0datnSMIcKEe5b35NDQMa5MjeWjWaVdfSUrSkxl5OTNOep3+MshTEP8JK3Qc4Db1CumNJGid2/V1XL+LtQ==}
+  '@netlify/dev@4.6.1':
+    resolution: {integrity: sha512-7Ay9QYshLK18ARRhFrH9QOHN8YrSuoCQnAEJUUJTIe9h+ZtDCFI48y965nGwNrP7zi+OKQeY13PSpklhjXBm8g==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/edge-bundler@14.5.6':
@@ -1165,8 +1165,12 @@ packages:
     resolution: {integrity: sha512-OsTi1Ch59MRmr0/8QUqPADbtpcoGapBU7NLScfax1tKi43tTIleZRynIKlY4fx2X7orJc4tzU+zErf1JXOQZ8A==}
     engines: {node: '>=18.0.0'}
 
-  '@netlify/functions@4.3.0':
-    resolution: {integrity: sha512-m00J4hO/AL+1mAD4jCia1kg2jIoO3S9+DXCge58n5tTqPlWt42Vgig5zm0ICJoAyjMKw2bGzfVw9a/s/x6d1+Q==}
+  '@netlify/functions-dev@1.0.0':
+    resolution: {integrity: sha512-Ws/NZiSjz2X2KW4fpZIPkfKGwoFcTFItm6iAgpY06TOol+n+sy2+qgvvjvF6Plm1l7mT2kttxXdsk6kVnR31Qg==}
+    engines: {node: '>=20.6.1'}
+
+  '@netlify/functions@5.0.0':
+    resolution: {integrity: sha512-gyKzl+P5SPp6P4iqykwPagSy7ODgRoQqi9TkjFJjM74FVJgxdiBQoLAmz+Pjl7kE5avJWtIvlQ+akAFaChekQQ==}
     engines: {node: '>=18.0.0'}
 
   '@netlify/headers-parser@9.0.2':
@@ -1181,8 +1185,8 @@ packages:
     resolution: {integrity: sha512-edQefgR4aeL04oSgkGyjza3CObdU2C24EmRuF/FPXIR1GHa/TkEKMamppxFjZ6qj1i5tX0RGTLKvnREmtW34NA==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/nuxt@0.2.0':
-    resolution: {integrity: sha512-Krrw0G5aJlILdSE3XNdHbwXbKPvtCxVF0U2S+cJ/SRycTZHiKOExVwkLGtR4G0YWSFh6a8Y15SZQltxOE6oyFg==}
+  '@netlify/nuxt@0.2.1':
+    resolution: {integrity: sha512-Qdio+257uwiBoq+/GaHdj9f75eiUh+28YrXz8aL0yZked1C/sLEu2vXyj/xdliUrpYtJlK4uQ3L1ZMgcCXHsew==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   '@netlify/open-api@2.38.0':
@@ -7431,7 +7435,7 @@ snapshots:
       https-proxy-agent: 7.0.6
       node-fetch: 2.7.0
       nopt: 8.1.0
-      semver: 7.7.2
+      semver: 7.7.3
       tar: 7.5.1
     transitivePeerDependencies:
       - encoding
@@ -7804,13 +7808,13 @@ snapshots:
       uuid: 11.1.0
       write-file-atomic: 5.0.1
 
-  '@netlify/dev@4.6.0(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(rollup@4.52.4)':
+  '@netlify/dev@4.6.1(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(rollup@4.52.4)':
     dependencies:
       '@netlify/blobs': 10.1.0
       '@netlify/config': 23.2.0
       '@netlify/dev-utils': 4.3.0
       '@netlify/edge-functions': 2.19.0
-      '@netlify/functions': 4.3.0(rollup@4.52.4)
+      '@netlify/functions-dev': 1.0.0(rollup@4.52.4)
       '@netlify/headers': 2.1.0
       '@netlify/images': 1.3.0(@netlify/blobs@10.1.0)(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)
       '@netlify/redirects': 3.1.0
@@ -7875,11 +7879,11 @@ snapshots:
       '@netlify/types': 2.1.0
       get-port: 7.1.0
 
-  '@netlify/functions@4.3.0(rollup@4.52.4)':
+  '@netlify/functions-dev@1.0.0(rollup@4.52.4)':
     dependencies:
       '@netlify/blobs': 10.1.0
       '@netlify/dev-utils': 4.3.0
-      '@netlify/types': 2.1.0
+      '@netlify/functions': 5.0.0
       '@netlify/zip-it-and-ship-it': 14.1.8(rollup@4.52.4)
       cron-parser: 4.9.0
       decache: 4.6.2
@@ -7888,12 +7892,17 @@ snapshots:
       jwt-decode: 4.0.0
       lambda-local: 2.2.0
       read-package-up: 11.0.0
+      semver: 7.7.3
       source-map-support: 0.5.21
     transitivePeerDependencies:
       - encoding
       - react-native-b4a
       - rollup
       - supports-color
+
+  '@netlify/functions@5.0.0':
+    dependencies:
+      '@netlify/types': 2.1.0
 
   '@netlify/headers-parser@9.0.2':
     dependencies:
@@ -7932,9 +7941,9 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@netlify/nuxt@0.2.0(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.4)':
+  '@netlify/nuxt@0.2.1(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.4)':
     dependencies:
-      '@netlify/dev': 4.6.0(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(rollup@4.52.4)
+      '@netlify/dev': 4.6.1(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(rollup@4.52.4)
       '@netlify/dev-utils': 4.3.0
       '@nuxt/kit': 4.1.3(magicast@0.3.5)
       h3: 1.15.4
@@ -8100,7 +8109,7 @@ snapshots:
       pathe: 2.0.3
       pkg-types: 2.3.0
       prompts: 2.4.2
-      semver: 7.7.2
+      semver: 7.7.3
 
   '@nuxt/devtools@2.6.5(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1)(sass-embedded@1.93.2)(sass@1.93.2)(terser@5.44.0)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))':
     dependencies:
@@ -8189,7 +8198,7 @@ snapshots:
       pkg-types: 2.3.0
       rc9: 2.1.2
       scule: 1.3.0
-      semver: 7.7.2
+      semver: 7.7.3
       std-env: 3.9.0
       tinyglobby: 0.2.15
       ufo: 1.6.1
