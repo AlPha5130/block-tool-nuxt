@@ -18,8 +18,8 @@ importers:
         specifier: ^7.16.0
         version: 7.17.1(@codemirror/language@6.11.3)(@codemirror/state@6.5.2)(@codemirror/view@6.38.5)(prosemirror-model@1.25.3)(prosemirror-state@1.4.3)(prosemirror-view@1.41.3)(typescript@5.9.3)(vue@3.5.22(typescript@5.9.3))
       '@netlify/nuxt':
-        specifier: 0.2.2
-        version: 0.2.2(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.4)
+        specifier: 0.2.3
+        version: 0.2.3(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.4)
       check-password-strength:
         specifier: ^3.0.0
         version: 3.0.0
@@ -1150,8 +1150,8 @@ packages:
     resolution: {integrity: sha512-vZAL8pMuj3yPQlmHSgyaA/UQFxc6pZgU0LucFJ1+IPWGJtIzBXHRvuR4acpoP72HtyQPUHJ42s7U9GaaSGVNHg==}
     engines: {node: ^18.14.0 || >=20}
 
-  '@netlify/dev@4.6.2':
-    resolution: {integrity: sha512-gBW/1g+fXcUHbnzo0vsjNJ66TVO8O/4DeGihUmQFEGi0r1LiP4mVHcz1Cw0nqC20BS+wRWpGaRcDLyNnnHh6zg==}
+  '@netlify/dev@4.6.3':
+    resolution: {integrity: sha512-PT23zofsvrH/y28HwdLpa3VDsXaJPG+aauJ9MTWC2xQBUlMvlhuLBB+WtjxbnEuQUTzxQ7sgVXnt2o5WyqWb7A==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/edge-bundler@14.5.6':
@@ -1161,8 +1161,12 @@ packages:
   '@netlify/edge-functions-bootstrap@2.16.0':
     resolution: {integrity: sha512-v8QQihSbBHj3JxtJsHoepXALpNumD9M7egHoc8z62FYl5it34dWczkaJoFFopEyhiBVKi4K/n0ZYpdzwfujd6g==}
 
-  '@netlify/edge-functions@2.19.0':
-    resolution: {integrity: sha512-OsTi1Ch59MRmr0/8QUqPADbtpcoGapBU7NLScfax1tKi43tTIleZRynIKlY4fx2X7orJc4tzU+zErf1JXOQZ8A==}
+  '@netlify/edge-functions-dev@1.0.0':
+    resolution: {integrity: sha512-bAUOuyxkqjEnX64Xel2QKqa7RNA13axrHYI089Vh9w5/+MCtf+CEuwexQ0Y3RoCyefjg8arHShL7lBccWFh4cg==}
+    engines: {node: '>=20.6.1'}
+
+  '@netlify/edge-functions@3.0.0':
+    resolution: {integrity: sha512-qvwxrrOFeB9phD4zok/8FDWCXtipYpmLav/B2M6mUyjwB+XTZA769WfNWRElTG4cSUgrNM+GkyLuFHU2D0aY4Q==}
     engines: {node: '>=18.0.0'}
 
   '@netlify/functions-dev@1.0.0':
@@ -1185,8 +1189,8 @@ packages:
     resolution: {integrity: sha512-edQefgR4aeL04oSgkGyjza3CObdU2C24EmRuF/FPXIR1GHa/TkEKMamppxFjZ6qj1i5tX0RGTLKvnREmtW34NA==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/nuxt@0.2.2':
-    resolution: {integrity: sha512-Ix8mUsbFec9WLjXLYMgSnCHA0l51208mZERDLBy/HhVyq1Slk5ZzBw2zAvL+Vlg1nJan0VnI7HmddcY34ofPIA==}
+  '@netlify/nuxt@0.2.3':
+    resolution: {integrity: sha512-GNDBQAvoo6/eIH5ih/hnhGqvtdgHPrbSsfDwfpW+Kx5Zn+Gbux5JWwxJMHy3Wxxbx+flV1bDV8zzCoyfXp4vbg==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   '@netlify/open-api@2.38.0':
@@ -7811,12 +7815,12 @@ snapshots:
       uuid: 11.1.0
       write-file-atomic: 5.0.1
 
-  '@netlify/dev@4.6.2(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(rollup@4.52.4)':
+  '@netlify/dev@4.6.3(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(rollup@4.52.4)':
     dependencies:
       '@netlify/blobs': 10.1.0
       '@netlify/config': 23.2.0
       '@netlify/dev-utils': 4.3.0
-      '@netlify/edge-functions': 2.19.0
+      '@netlify/edge-functions-dev': 1.0.0
       '@netlify/functions-dev': 1.0.0(rollup@4.52.4)
       '@netlify/headers': 2.1.0
       '@netlify/images': 1.3.0(@netlify/blobs@10.1.0)(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)
@@ -7873,14 +7877,18 @@ snapshots:
 
   '@netlify/edge-functions-bootstrap@2.16.0': {}
 
-  '@netlify/edge-functions@2.19.0':
+  '@netlify/edge-functions-dev@1.0.0':
     dependencies:
       '@netlify/dev-utils': 4.3.0
       '@netlify/edge-bundler': 14.5.6
+      '@netlify/edge-functions': 3.0.0
       '@netlify/edge-functions-bootstrap': 2.16.0
       '@netlify/runtime-utils': 2.2.0
-      '@netlify/types': 2.1.0
       get-port: 7.1.0
+
+  '@netlify/edge-functions@3.0.0':
+    dependencies:
+      '@netlify/types': 2.1.0
 
   '@netlify/functions-dev@1.0.0(rollup@4.52.4)':
     dependencies:
@@ -7944,9 +7952,9 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@netlify/nuxt@0.2.2(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.4)':
+  '@netlify/nuxt@0.2.3(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.4)':
     dependencies:
-      '@netlify/dev': 4.6.2(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(rollup@4.52.4)
+      '@netlify/dev': 4.6.3(db0@0.3.4(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250826.0)))(ioredis@5.8.1)(rollup@4.52.4)
       '@netlify/dev-utils': 4.3.0
       '@nuxt/kit': 4.1.3(magicast@0.3.5)
       h3: 1.15.4
