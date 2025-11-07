@@ -16,7 +16,7 @@
     "@milkdown/kit": "^7.17.1",
     "@milkdown/theme-nord": "^7.17.1",
     "@milkdown/vue": "^7.17.1",
-    "@netlify/nuxt": "0.2.9",
+    "@netlify/nuxt": "0.2.10",
     "check-password-strength": "^3.0.0",
     "drizzle-orm": "^0.44.7",
     "nuxt": "^4.2.0",
