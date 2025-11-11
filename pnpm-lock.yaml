@@ -18,8 +18,8 @@ importers:
         specifier: ^7.17.1
         version: 7.17.1(@codemirror/language@6.11.3)(@codemirror/state@6.5.2)(@codemirror/view@6.38.6)(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.3)(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3))
       '@netlify/nuxt':
-        specifier: 0.2.10
-        version: 0.2.10(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)
+        specifier: 0.2.11
+        version: 0.2.11(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)
       check-password-strength:
         specifier: ^3.0.0
         version: 3.0.0
@@ -1288,6 +1288,12 @@ packages:
   '@napi-rs/wasm-runtime@1.0.7':
     resolution: {integrity: sha512-SeDnOO0Tk7Okiq6DbXmmBODgOAb9dp9gjlphokTUxmt8U3liIP1ZsozBahH69j/RJv+Rfs6IwUKHTgQYJ/HBAw==}
 
+  '@netlify/ai@0.3.3':
+    resolution: {integrity: sha512-P2EWy+fmybtJ4xptqR1qq+fL0JK4kj7MxqziSIB9BfqG7kIGDPTHHgbrzpEbgNvUpPt/l74mF5rQ5UW26VRp3A==}
+    engines: {node: '>=20.6.1'}
+    peerDependencies:
+      '@netlify/api': '>=14.0.10'
+
   '@netlify/api@14.0.9':
     resolution: {integrity: sha512-fKmMheaHDps5K8T3lyidFR+nCkpqEkkFLNz5YGptlaocz7LpgEZvmluv20XwqMEXQ3WBGZzXeJMns87Tdmtw2Q==}
     engines: {node: '>=18.14.0'}
@@ -1312,8 +1318,8 @@ packages:
     resolution: {integrity: sha512-ErQgiGOxGlHLuu29+pOPhBNJ+ak9thbhZ9/9zI/hbr732S8CNVDGAU2N0DC59Mrl9/HjLetFoXxsCBDeQzaeqg==}
     engines: {node: ^18.14.0 || >=20}
 
-  '@netlify/dev@4.7.1':
-    resolution: {integrity: sha512-nPOTSDl+ZmeymWguJ81ALhO/WueJM/WCq+XH9ZuSD/KQlxVbhaP6FhQh9+V7nyMpjzx/xAnXHZuI8MbHi+5Caw==}
+  '@netlify/dev@4.8.0':
+    resolution: {integrity: sha512-tIBc4TxMUQ+t4wEmeoTAa4SyEBC4X21XuwJTeET2lszZHQgZjdwJPMyW88Taj40SaARSh2wMI3xeACYoYIqWUw==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/edge-bundler@14.8.6':
@@ -1351,8 +1357,8 @@ packages:
     resolution: {integrity: sha512-mS5kpRf+Cwmit7SWNww4h52W7ezz2ep7o/lc0Bgs2tRGMVC2lH1iyprxlda0mLNvPpFec/CeFQhkQJ2clDHZIA==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/nuxt@0.2.10':
-    resolution: {integrity: sha512-c7YftxCD/lystFpR4VeByBnrHkQu0R63SWX/lWk4gm62fn5Ceb39MmZLYxnnHZ04KUFwYDKFHTcUo8W4wUev4g==}
+  '@netlify/nuxt@0.2.11':
+    resolution: {integrity: sha512-4KVPS3lmeJ6M7pWYMFkK/fgCZODFsIkJdk3f/cPk5AS/C+ctCI8+1lOw0dzAFteQ/yGLRDfl2ovFlMF2JCFciw==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   '@netlify/open-api@2.42.0':
@@ -8147,6 +8153,10 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
+  '@netlify/ai@0.3.3(@netlify/api@14.0.9)':
+    dependencies:
+      '@netlify/api': 14.0.9
+
   '@netlify/api@14.0.9':
     dependencies:
       '@netlify/open-api': 2.42.0
@@ -8213,8 +8223,9 @@ snapshots:
       uuid: 11.1.0
       write-file-atomic: 5.0.1
 
-  '@netlify/dev@4.7.1(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(rollup@4.52.5)':
+  '@netlify/dev@4.8.0(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(rollup@4.52.5)':
     dependencies:
+      '@netlify/ai': 0.3.3(@netlify/api@14.0.9)
       '@netlify/blobs': 10.3.3
       '@netlify/config': 23.2.0
       '@netlify/dev-utils': 4.3.1
@@ -8235,6 +8246,7 @@ snapshots:
       - '@azure/storage-blob'
       - '@capacitor/preferences'
       - '@deno/kv'
+      - '@netlify/api'
       - '@planetscale/database'
       - '@upstash/redis'
       - '@vercel/blob'
@@ -8352,11 +8364,11 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@netlify/nuxt@0.2.10(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)':
+  '@netlify/nuxt@0.2.11(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)':
     dependencies:
-      '@netlify/dev': 4.7.1(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(rollup@4.52.5)
+      '@netlify/dev': 4.8.0(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(rollup@4.52.5)
       '@netlify/dev-utils': 4.3.1
-      '@nuxt/kit': 4.2.0(magicast@0.5.1)
+      '@nuxt/kit': 4.2.1(magicast@0.5.1)
       h3: 1.15.4
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -8367,6 +8379,7 @@ snapshots:
       - '@azure/storage-blob'
       - '@capacitor/preferences'
       - '@deno/kv'
+      - '@netlify/api'
       - '@planetscale/database'
       - '@upstash/redis'
       - '@vercel/blob'
