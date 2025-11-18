@@ -18,8 +18,8 @@ importers:
         specifier: ^7.17.1
         version: 7.17.1(@codemirror/language@6.11.3)(@codemirror/state@6.5.2)(@codemirror/view@6.38.6)(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.3)(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3))
       '@netlify/nuxt':
-        specifier: 0.2.11
-        version: 0.2.11(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)
+        specifier: 0.2.13
+        version: 0.2.13(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)
       check-password-strength:
         specifier: ^3.0.0
         version: 3.0.0
@@ -28,7 +28,7 @@ importers:
         version: 0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)
       nuxt:
         specifier: ^4.2.0
-        version: 4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
+        version: 4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
       nuxt-auth-utils:
         specifier: ^0.5.25
         version: 0.5.25(magicast@0.5.1)
@@ -47,7 +47,7 @@ importers:
     devDependencies:
       '@nuxtjs/i18n':
         specifier: ^10.2.0
-        version: 10.2.1(@netlify/blobs@10.3.3)(@vue/compiler-dom@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)(vue@3.5.24(typescript@5.9.3))
+        version: 10.2.1(@netlify/blobs@10.4.1)(@vue/compiler-dom@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)(vue@3.5.24(typescript@5.9.3))
       '@prettier/plugin-pug':
         specifier: ^3.4.2
         version: 3.4.2(prettier@3.6.2)
@@ -68,7 +68,7 @@ importers:
         version: 14.0.0(vue@3.5.24(typescript@5.9.3))
       '@vueuse/nuxt':
         specifier: ^14.0.0
-        version: 14.0.0(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.24(typescript@5.9.3))
+        version: 14.0.0(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.24(typescript@5.9.3))
       drizzle-kit:
         specifier: ^0.31.6
         version: 0.31.7
@@ -1301,12 +1301,12 @@ packages:
   '@netlify/binary-info@1.0.0':
     resolution: {integrity: sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==}
 
-  '@netlify/blobs@10.3.3':
-    resolution: {integrity: sha512-yhw0AxB/Felk0KlWtCAqxWcV4xchPumxdlpmdJWlxkVQPoOR7dTPwXsQ6Y4W46oA83QaDD6Rgroi3OKbvg5OBQ==}
+  '@netlify/blobs@10.4.1':
+    resolution: {integrity: sha512-43wntITwgocQxJThPxtgZ9XCPk2wAXrqD61uqgcIG2EhT/cXpvfEGEo6nLXXtb9irW6nQVXusJeLHEhKJFC4Vg==}
     engines: {node: ^14.16.0 || >=16.0.0}
 
-  '@netlify/cache@3.3.2':
-    resolution: {integrity: sha512-huN+315qooeJahkFimqgSt/evYrrS4szwJE66m5TKoAlI0QnrYp7Ct2WlWbMnFf8MdCjgkMvBL02xqRKqQyVBg==}
+  '@netlify/cache@3.3.3':
+    resolution: {integrity: sha512-xWiKDtGSqIUYev8LVtdeBsDFLjczlvn8tp4nMs+3QqPk7FJ94j7qwFjB+QRWg7g4Fbin9UvgIrMlmAEXE+gjKA==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/config@23.2.0':
@@ -1314,31 +1314,31 @@ packages:
     engines: {node: '>=18.14.0'}
     hasBin: true
 
-  '@netlify/dev-utils@4.3.1':
-    resolution: {integrity: sha512-ErQgiGOxGlHLuu29+pOPhBNJ+ak9thbhZ9/9zI/hbr732S8CNVDGAU2N0DC59Mrl9/HjLetFoXxsCBDeQzaeqg==}
+  '@netlify/dev-utils@4.3.2':
+    resolution: {integrity: sha512-Nl6c5UVLbpOwvzVaT6fJycdkc3EswqFoI9c2hZ3WUUX+kQ2ojdrkFMuKcPERaGXYxrhy/uGk1CURAflG8YC2RA==}
     engines: {node: ^18.14.0 || >=20}
 
-  '@netlify/dev@4.8.0':
-    resolution: {integrity: sha512-tIBc4TxMUQ+t4wEmeoTAa4SyEBC4X21XuwJTeET2lszZHQgZjdwJPMyW88Taj40SaARSh2wMI3xeACYoYIqWUw==}
+  '@netlify/dev@4.8.2':
+    resolution: {integrity: sha512-XY+TylQZwqm0mDHz4N6ovSAWE0T/dkjMu7y/yr7idG12hMscfr4dOvkLEn5LiueMrbneAwpte1kkNcygRa0dUw==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/edge-bundler@14.8.6':
-    resolution: {integrity: sha512-2Dm6V7BP/p6bt+BP5I5sNUU3+4iweUuEczmoxUWDn2N1slZdDnh9RvdVDWxS3G0zaN0H6SLPOE2X74dS7dslRQ==}
+  '@netlify/edge-bundler@14.8.7':
+    resolution: {integrity: sha512-5KVe/DNqk28IYIfy29TJNUGzj2QMUkLPX2QJKSeGhI9EyGPY9/jhteaRPPcPTSpgWybZoJdGbhHTUr2F+fDIdQ==}
     engines: {node: '>=18.14.0'}
 
   '@netlify/edge-functions-bootstrap@2.16.0':
     resolution: {integrity: sha512-v8QQihSbBHj3JxtJsHoepXALpNumD9M7egHoc8z62FYl5it34dWczkaJoFFopEyhiBVKi4K/n0ZYpdzwfujd6g==}
 
-  '@netlify/edge-functions-dev@1.0.4':
-    resolution: {integrity: sha512-X45vVpOZQGQCCDf9/Y6+4U/iqwc6MBrmRhZtO5rjErbJe+qy1MVQSn7pKxYSshBqhOSfx2ff4XTyuK0rn0qfPA==}
+  '@netlify/edge-functions-dev@1.0.5':
+    resolution: {integrity: sha512-rgpNmMq4oGGvVs4Rkqtwl1NJE7dV0ki+EXz98ReVo20snCam60iXkGKLoLtKtQzFg1e0pkz+UNq5CafC4zFTNw==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/edge-functions@3.0.2':
     resolution: {integrity: sha512-1vW3R+Rc2JxL6qITndlT87N94GPjJ6gH2ntXW3IDdLzSABoU9XCHw4lRzDw+bhgSLTm0oyOwQA2+hhFvstznNQ==}
     engines: {node: '>=18.0.0'}
 
-  '@netlify/functions-dev@1.1.0':
-    resolution: {integrity: sha512-dJcYL+g2Ao80q9YJW+HsQI4uG10xDI0ad2meaoE+JRTHep38kW6Nf4cwMzH7SkoSqt4Rovpys3JaW1Dvbbu9Cg==}
+  '@netlify/functions-dev@1.1.2':
+    resolution: {integrity: sha512-O3Exq9yomIBsar7Yv7MkJ3qHQNLy3gAumuqzQ5DVyf7pMfNpyPmZCPF+bdVQdIGt5qrhNtUZYL2VIZgf+YOVgg==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/functions@5.1.0':
@@ -1349,48 +1349,48 @@ packages:
     resolution: {integrity: sha512-86YEGPxVemhksY1LeSr8NSOyH11RHvYHq+FuBJnTlPZoRDX+TD+0TAxF6lwzAgVTd1VPkyFEHlNgUGqw7aNzRQ==}
     engines: {node: '>=18.14.0'}
 
-  '@netlify/headers@2.1.1':
-    resolution: {integrity: sha512-FVt59N2g/zCHFQKz4TencQxCse/cvBZ5dTho9Mq45FtGoHXvGpyf48JIlO5+niUTYSgZgELicaVoj7KjG8T4nw==}
+  '@netlify/headers@2.1.2':
+    resolution: {integrity: sha512-3dkP1LU9U3ynKHuLUP0HCzJhf0bLs/ESuz1QjnUTOwx6oxc3hkIFa8B8wAa00uOrx3lVgcN76Zuydvkjulk7wA==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/images@1.3.1':
-    resolution: {integrity: sha512-mS5kpRf+Cwmit7SWNww4h52W7ezz2ep7o/lc0Bgs2tRGMVC2lH1iyprxlda0mLNvPpFec/CeFQhkQJ2clDHZIA==}
+  '@netlify/images@1.3.2':
+    resolution: {integrity: sha512-/YEhpm0KbiDtbYZbfOv6tbJyk+/j10tndeJAvUc94mSyv3EB7X4DREvhftZcxLuE6A2IceaKIbh5DpUNgJHjxA==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/nuxt@0.2.11':
-    resolution: {integrity: sha512-4KVPS3lmeJ6M7pWYMFkK/fgCZODFsIkJdk3f/cPk5AS/C+ctCI8+1lOw0dzAFteQ/yGLRDfl2ovFlMF2JCFciw==}
+  '@netlify/nuxt@0.2.13':
+    resolution: {integrity: sha512-kUuclwp5Wlf5cJfBEtGK49fBhcjNEzlj0cqR6LznBLYre2kP16b122iDU0W95ESHqqSQY0vQzcBbTTUG/Bm60Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   '@netlify/open-api@2.42.0':
     resolution: {integrity: sha512-oHFCCo5FigIZcni/IioNKPwL9jC2++RUnHHfHFOhXKyLDGB8x93cU03N15RuZhG92+VM6dOzhM4WDEDeG6hXcQ==}
     engines: {node: '>=14.8.0'}
 
-  '@netlify/otel@4.3.2':
-    resolution: {integrity: sha512-979piAUQd2UINkfy951JFUFWvscXl+t+a57uYX6ViDBlNOhV/UTZGF5THAv1es3qtng8SHFDmOiftO8D/rFEPA==}
+  '@netlify/otel@5.0.0':
+    resolution: {integrity: sha512-7EWbS+puDub800IQ9MUVcLrWwCNPyK/u1Rs08f0Y+O4dBGVkuTm/RyaLoU58PPLuNCfPHXebfIYFZxN+/CtZeA==}
     engines: {node: ^18.14.0 || >=20.6.1}
 
   '@netlify/redirect-parser@15.0.3':
     resolution: {integrity: sha512-/HB3fcRRNgf6O/pbLn4EYNDHrU2kiadMMnazg8/OjvQK2S9i4y61vQcrICvDxYKUKQdgeEaABUuaCNAJFnfD9w==}
     engines: {node: '>=18.14.0'}
 
-  '@netlify/redirects@3.1.2':
-    resolution: {integrity: sha512-S1ap1CC7HMyaA9imRYRpuY3iZAaAgPEaQ15U9YI6W6273BSUf1jXhaOMv0kAOFX+qtx/yd0LU4Gncko/zpQCSA==}
+  '@netlify/redirects@3.1.3':
+    resolution: {integrity: sha512-gIk/h4nzg9n/LWV7odfqMP00MBRSfujnW50DRYkWqh4ApW5NdfZxOcla7ISl6hZcIDMUruOPcFOD7PFXSALVvQ==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/runtime-utils@2.2.1':
     resolution: {integrity: sha512-dyJeuggzQM8+Dsi0T8Z9UjfLJ6vCmNC36W6WE2aqzfTdTw4wPkh2xlEu4LoD75+TGuYK7jIhEoU2QcCXOzfyAQ==}
     engines: {node: ^18.14.0 || >=20}
 
-  '@netlify/runtime@4.1.7':
-    resolution: {integrity: sha512-VIYQnq275HvYzGKbSCgXWxgfGcB1y0vxWl8qrNHPk0wbXkSIq0PkqID4n7EAwAzxa06K6B4/yFWb1qV9z5RxwA==}
+  '@netlify/runtime@4.1.9':
+    resolution: {integrity: sha512-q+kg+1s7MZL3GMDY6KwsWxpFLmkk7JL3+wRrLKIrDh+CBMPBOMnGV1uLfT8ndOHf7sicvMf8xLIlv/gzZt7B8w==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/serverless-functions-api@2.7.1':
     resolution: {integrity: sha512-NQcLB8BHbIsgSBPk9A/OBR5mGpc6dOAg1iRsYHWK0IoKsvwQ9a7bZc2+E40nE41Mnk24UjfK09vDLxP85O/zwA==}
     engines: {node: '>=18.0.0'}
 
-  '@netlify/static@3.1.1':
-    resolution: {integrity: sha512-zvdsxNOIkL8RyJs6Aqqd0Z2nyzrTmNX9cu8MGIJRuKX6VbF54iS0e5DbAVXMSLae+BDIhPp22XWI64GyJa0EJw==}
+  '@netlify/static@3.1.2':
+    resolution: {integrity: sha512-1kxT/xTro9+zzdbyxdNSZpzwzOwlxBTbLPpVsuvF+77euman6Fxhwyt9KoEBMSwO3dyKC3LW9W4Wa/k+zeDqpg==}
     engines: {node: '>=20.6.1'}
 
   '@netlify/types@2.2.0':
@@ -1490,10 +1490,6 @@ packages:
     resolution: {integrity: sha512-9B9RU0H7Ya1Dx/Rkyc4stuBZSGVQF27WigitInx2QQoj6KUpEFYPKoWjdFTunJYxmXmh17HeBvbMa1EhGyPmqQ==}
     engines: {node: '>=8.0.0'}
 
-  '@opentelemetry/api-logs@0.57.2':
-    resolution: {integrity: sha512-uIX52NnTM0iBh84MShlpouI7UKqkZ7MrUszTmaypHBu4r7NofznSnQRfJ+uUeDtQDj6w8eFGg5KBLDAwAPz1+A==}
-    engines: {node: '>=14'}
-
   '@opentelemetry/api@1.9.0':
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
     engines: {node: '>=8.0.0'}
@@ -1516,12 +1512,6 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
 
-  '@opentelemetry/otlp-transformer@0.57.2':
-    resolution: {integrity: sha512-48IIRj49gbQVK52jYsw70+Jv+JbahT8BqT2Th7C4H7RCM9d0gZ5sgNPoMpWldmfjvIsSgiGJtjfk9MeZvjhoig==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': ^1.3.0
-
   '@opentelemetry/propagator-b3@1.30.1':
     resolution: {integrity: sha512-oATwWWDIJzybAZ4pO76ATN5N6FFbOA1otibAVlS8v90B4S1wClnhRUk7K+2CHAwN1JKYuj4jh/lpCEG5BAqFuQ==}
     engines: {node: '>=14'}
@@ -1539,18 +1529,6 @@ packages:
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
-
-  '@opentelemetry/sdk-logs@0.57.2':
-    resolution: {integrity: sha512-TXFHJ5c+BKggWbdEQ/inpgIzEmS2BGQowLE9UhsMd7YYlUfBQJ4uax0VF/B5NYigdM/75OoJGhAV3upEhK+3gg==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': '>=1.4.0 <1.10.0'
-
-  '@opentelemetry/sdk-metrics@1.30.1':
-    resolution: {integrity: sha512-q9zcZ0Okl8jRgmy7eNW3Ku1XSgg3sDLa5evHZpCwjspw7E8Is4K/haRPDJrBcX3YSn/Y7gUvFnByNYEKQNbNog==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
   '@opentelemetry/sdk-trace-base@1.30.1':
     resolution: {integrity: sha512-jVPgBbH1gCy2Lb7X0AVQ8XAfgg0pJ4nvl8/IiQA6nxOsPvS+0zMJaFSs2ltXe0J6C8dqjcnpyqINDJmU30+uOg==}
@@ -2158,36 +2136,6 @@ packages:
     engines: {node: '>=20.0.0', npm: '>=10.0.0'}
     peerDependencies:
       prettier: ^3.0.0
-
-  '@protobufjs/aspromise@1.1.2':
-    resolution: {integrity: sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==}
-
-  '@protobufjs/base64@1.1.2':
-    resolution: {integrity: sha512-AZkcAA5vnN/v4PDqKyMR5lx7hZttPDgClv83E//FMNhR2TMcLUhfRUBHCmSl0oi9zMgDDqRUJkSxO3wm85+XLg==}
-
-  '@protobufjs/codegen@2.0.4':
-    resolution: {integrity: sha512-YyFaikqM5sH0ziFZCN3xDC7zeGaB/d0IUb9CATugHWbd1FRFwWwt4ld4OYMPWu5a3Xe01mGAULCdqhMlPl29Jg==}
-
-  '@protobufjs/eventemitter@1.1.0':
-    resolution: {integrity: sha512-j9ednRT81vYJ9OfVuXG6ERSTdEL1xVsNgqpkxMsbIabzSo3goCjDIveeGv5d03om39ML71RdmrGNjG5SReBP/Q==}
-
-  '@protobufjs/fetch@1.1.0':
-    resolution: {integrity: sha512-lljVXpqXebpsijW71PZaCYeIcE5on1w5DlQy5WH6GLbFryLUrBD4932W/E2BSpfRJWseIL4v/KPgBFxDOIdKpQ==}
-
-  '@protobufjs/float@1.0.2':
-    resolution: {integrity: sha512-Ddb+kVXlXst9d+R9PfTIxh1EdNkgoRe5tOX6t01f1lYWOvJnSPDBlG241QLzcyPdoNTsblLUdujGSE4RzrTZGQ==}
-
-  '@protobufjs/inquire@1.1.0':
-    resolution: {integrity: sha512-kdSefcPdruJiFMVSbn801t4vFK7KB/5gd2fYvrxhuJYg8ILrmn9SKSX2tZdV6V+ksulWqS7aXjBcRXl3wHoD9Q==}
-
-  '@protobufjs/path@1.1.2':
-    resolution: {integrity: sha512-6JOcJ5Tm08dOHAbdR3GrvP+yUUfkjG5ePsHYczMFLq3ZmMkAD98cDgcT2iA1lJ9NVwFd4tH/iSSoe44YWkltEA==}
-
-  '@protobufjs/pool@1.1.0':
-    resolution: {integrity: sha512-0kELaGSIDBKvcgS4zkjz1PeddatrjYcmMWOlAuAPwAeccUrPHdUqo/J6LiymHHEiJT5NrF1UVwxY14f+fy4WQw==}
-
-  '@protobufjs/utf8@1.1.0':
-    resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
 
   '@quansync/fs@0.1.5':
     resolution: {integrity: sha512-lNS9hL2aS2NZgNW7BBj+6EBl4rOf8l+tQ0eRY6JWCI8jI2kc53gSoqbjojU0OnAWhzoXiOjFyGsHcDGePB3lhA==}
@@ -4551,9 +4499,6 @@ packages:
     resolution: {integrity: sha512-TFYA4jnP7PVbmlBIfhlSe+WKxs9dklXMTEGcBCIvLhE/Tn3H6Gk1norupVW7m5Cnd4bLcr08AytbyV/xj7f/kQ==}
     engines: {node: '>= 12.0.0'}
 
-  long@5.3.2:
-    resolution: {integrity: sha512-mNAgZ1GmyNhD7AuqnTG3/VQ26o760+ZYBPKjPvugO8+nLbYfX6TVpJPseBvopbdY+qpZ/lKUnmEc1LeZYS3QAA==}
-
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
@@ -5478,10 +5423,6 @@ packages:
       prosemirror-view:
         optional: true
 
-  protobufjs@7.5.4:
-    resolution: {integrity: sha512-CvexbZtbov6jW2eXAvLukXjXUW1TzFaivC46BpWc/3BpcCysb5Vffu+B3XHMm8lVEuy2Mm4XGex8hBSg1yapPg==}
-    engines: {node: '>=12.0.0'}
-
   protocols@2.0.2:
     resolution: {integrity: sha512-hHVTzba3wboROl0/aWRRG9dMytgH6ow//STBZh43l/wQgmMhYhOFi0EHWAPtoCz9IAUymsyP0TSBHkhgMEGNnQ==}
 
@@ -6387,6 +6328,10 @@ packages:
 
   uuid@11.1.0:
     resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
+    hasBin: true
+
+  uuid@13.0.0:
+    resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
     hasBin: true
 
   validate-npm-package-license@3.0.4:
@@ -8203,15 +8148,15 @@ snapshots:
 
   '@netlify/binary-info@1.0.0': {}
 
-  '@netlify/blobs@10.3.3':
+  '@netlify/blobs@10.4.1':
     dependencies:
-      '@netlify/dev-utils': 4.3.1
-      '@netlify/otel': 4.3.2
+      '@netlify/dev-utils': 4.3.2
+      '@netlify/otel': 5.0.0
       '@netlify/runtime-utils': 2.2.1
     transitivePeerDependencies:
       - supports-color
 
-  '@netlify/cache@3.3.2':
+  '@netlify/cache@3.3.3':
     dependencies:
       '@netlify/runtime-utils': 2.2.1
 
@@ -8242,7 +8187,7 @@ snapshots:
       yaml: 2.8.1
       yargs: 17.7.2
 
-  '@netlify/dev-utils@4.3.1':
+  '@netlify/dev-utils@4.3.2':
     dependencies:
       '@whatwg-node/server': 0.10.13
       ansis: 4.2.0
@@ -8257,22 +8202,22 @@ snapshots:
       parse-gitignore: 2.0.0
       semver: 7.7.3
       tmp-promise: 3.0.3
-      uuid: 11.1.0
+      uuid: 13.0.0
       write-file-atomic: 5.0.1
 
-  '@netlify/dev@4.8.0(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(rollup@4.52.5)':
+  '@netlify/dev@4.8.2(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(rollup@4.52.5)':
     dependencies:
       '@netlify/ai': 0.3.3(@netlify/api@14.0.9)
-      '@netlify/blobs': 10.3.3
+      '@netlify/blobs': 10.4.1
       '@netlify/config': 23.2.0
-      '@netlify/dev-utils': 4.3.1
-      '@netlify/edge-functions-dev': 1.0.4
-      '@netlify/functions-dev': 1.1.0(rollup@4.52.5)
-      '@netlify/headers': 2.1.1
-      '@netlify/images': 1.3.1(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
-      '@netlify/redirects': 3.1.2
-      '@netlify/runtime': 4.1.7
-      '@netlify/static': 3.1.1
+      '@netlify/dev-utils': 4.3.2
+      '@netlify/edge-functions-dev': 1.0.5
+      '@netlify/functions-dev': 1.1.2(rollup@4.52.5)
+      '@netlify/headers': 2.1.2
+      '@netlify/images': 1.3.2(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
+      '@netlify/redirects': 3.1.3
+      '@netlify/runtime': 4.1.9
+      '@netlify/static': 3.1.2
       ulid: 3.0.1
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -8300,7 +8245,7 @@ snapshots:
       - supports-color
       - uploadthing
 
-  '@netlify/edge-bundler@14.8.6':
+  '@netlify/edge-bundler@14.8.7':
     dependencies:
       '@import-maps/resolve': 2.0.0
       ajv: 8.17.1
@@ -8325,10 +8270,10 @@ snapshots:
 
   '@netlify/edge-functions-bootstrap@2.16.0': {}
 
-  '@netlify/edge-functions-dev@1.0.4':
+  '@netlify/edge-functions-dev@1.0.5':
     dependencies:
-      '@netlify/dev-utils': 4.3.1
-      '@netlify/edge-bundler': 14.8.6
+      '@netlify/dev-utils': 4.3.2
+      '@netlify/edge-bundler': 14.8.7
       '@netlify/edge-functions': 3.0.2
       '@netlify/edge-functions-bootstrap': 2.16.0
       '@netlify/runtime-utils': 2.2.1
@@ -8338,10 +8283,10 @@ snapshots:
     dependencies:
       '@netlify/types': 2.2.0
 
-  '@netlify/functions-dev@1.1.0(rollup@4.52.5)':
+  '@netlify/functions-dev@1.1.2(rollup@4.52.5)':
     dependencies:
-      '@netlify/blobs': 10.3.3
-      '@netlify/dev-utils': 4.3.1
+      '@netlify/blobs': 10.4.1
+      '@netlify/dev-utils': 4.3.2
       '@netlify/functions': 5.1.0
       '@netlify/zip-it-and-ship-it': 14.1.13(rollup@4.52.5)
       cron-parser: 4.9.0
@@ -8373,13 +8318,13 @@ snapshots:
       map-obj: 5.0.2
       path-exists: 5.0.0
 
-  '@netlify/headers@2.1.1':
+  '@netlify/headers@2.1.2':
     dependencies:
       '@netlify/headers-parser': 9.0.2
 
-  '@netlify/images@1.3.1(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)':
+  '@netlify/images@1.3.2(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)':
     dependencies:
-      ipx: 3.1.1(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
+      ipx: 3.1.1(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -8401,10 +8346,10 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@netlify/nuxt@0.2.11(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)':
+  '@netlify/nuxt@0.2.13(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)':
     dependencies:
-      '@netlify/dev': 4.8.0(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(rollup@4.52.5)
-      '@netlify/dev-utils': 4.3.1
+      '@netlify/dev': 4.8.2(@netlify/api@14.0.9)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)(rollup@4.52.5)
+      '@netlify/dev-utils': 4.3.2
       '@nuxt/kit': 4.2.1(magicast@0.5.1)
       h3: 1.15.4
     transitivePeerDependencies:
@@ -8436,12 +8381,11 @@ snapshots:
 
   '@netlify/open-api@2.42.0': {}
 
-  '@netlify/otel@4.3.2':
+  '@netlify/otel@5.0.0':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation': 0.203.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/otlp-transformer': 0.57.2(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-node': 1.30.1(@opentelemetry/api@1.9.0)
     transitivePeerDependencies:
@@ -8454,9 +8398,9 @@ snapshots:
       is-plain-obj: 4.1.0
       path-exists: 5.0.0
 
-  '@netlify/redirects@3.1.2':
+  '@netlify/redirects@3.1.3':
     dependencies:
-      '@netlify/dev-utils': 4.3.1
+      '@netlify/dev-utils': 4.3.2
       '@netlify/redirect-parser': 15.0.3
       cookie: 1.0.2
       jsonwebtoken: 9.0.2
@@ -8464,10 +8408,10 @@ snapshots:
 
   '@netlify/runtime-utils@2.2.1': {}
 
-  '@netlify/runtime@4.1.7':
+  '@netlify/runtime@4.1.9':
     dependencies:
-      '@netlify/blobs': 10.3.3
-      '@netlify/cache': 3.3.2
+      '@netlify/blobs': 10.4.1
+      '@netlify/cache': 3.3.3
       '@netlify/runtime-utils': 2.2.1
       '@netlify/types': 2.2.0
     transitivePeerDependencies:
@@ -8475,7 +8419,7 @@ snapshots:
 
   '@netlify/serverless-functions-api@2.7.1': {}
 
-  '@netlify/static@3.1.1':
+  '@netlify/static@3.1.2':
     dependencies:
       mime-types: 3.0.1
 
@@ -8701,7 +8645,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/nitro-server@4.2.1(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(ioredis@5.8.2)(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(typescript@5.9.3)':
+  '@nuxt/nitro-server@4.2.1(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(ioredis@5.8.2)(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(typescript@5.9.3)':
     dependencies:
       '@nuxt/devalue': 2.0.2
       '@nuxt/kit': 4.2.1(magicast@0.5.1)
@@ -8718,15 +8662,15 @@ snapshots:
       impound: 1.0.0
       klona: 2.0.6
       mocked-exports: 0.1.1
-      nitropack: 2.12.9(@netlify/blobs@10.3.3)(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))
-      nuxt: 4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
+      nitropack: 2.12.9(@netlify/blobs@10.4.1)(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))
+      nuxt: 4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
       pathe: 2.0.3
       pkg-types: 2.3.0
       radix3: 1.1.2
       std-env: 3.10.0
       ufo: 1.6.1
       unctx: 2.4.1
-      unstorage: 1.17.2(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
+      unstorage: 1.17.2(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
       vue: 3.5.24(typescript@5.9.3)
       vue-bundle-renderer: 2.2.0
       vue-devtools-stub: 0.1.0
@@ -8790,7 +8734,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/vite-builder@4.2.1(@types/node@24.10.1)(eslint@9.32.0(jiti@2.6.1))(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3))(yaml@2.8.1)':
+  '@nuxt/vite-builder@4.2.1(@types/node@24.10.1)(eslint@9.32.0(jiti@2.6.1))(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3))(yaml@2.8.1)':
     dependencies:
       '@nuxt/kit': 4.2.1(magicast@0.5.1)
       '@rollup/plugin-replace': 6.0.3(rollup@4.52.5)
@@ -8810,7 +8754,7 @@ snapshots:
       magic-string: 0.30.21
       mlly: 1.8.0
       mocked-exports: 0.1.1
-      nuxt: 4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
+      nuxt: 4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
       pathe: 2.0.3
       pkg-types: 2.3.0
       postcss: 8.5.6
@@ -8849,7 +8793,7 @@ snapshots:
       - vue-tsc
       - yaml
 
-  '@nuxtjs/i18n@10.2.1(@netlify/blobs@10.3.3)(@vue/compiler-dom@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)(vue@3.5.24(typescript@5.9.3))':
+  '@nuxtjs/i18n@10.2.1(@netlify/blobs@10.4.1)(@vue/compiler-dom@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.52.5)(vue@3.5.24(typescript@5.9.3))':
     dependencies:
       '@intlify/core': 11.1.12
       '@intlify/h3': 0.7.4
@@ -8876,7 +8820,7 @@ snapshots:
       ufo: 1.6.1
       unplugin: 2.3.10
       unplugin-vue-router: 0.16.2(@vue/compiler-sfc@3.5.24)(typescript@5.9.3)(vue-router@4.6.3(vue@3.5.24(typescript@5.9.3)))(vue@3.5.24(typescript@5.9.3))
-      unstorage: 1.17.2(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
+      unstorage: 1.17.2(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
       vue-i18n: 11.1.12(vue@3.5.24(typescript@5.9.3))
       vue-router: 4.6.3(vue@3.5.24(typescript@5.9.3))
     transitivePeerDependencies:
@@ -8913,10 +8857,6 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.0
 
-  '@opentelemetry/api-logs@0.57.2':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-
   '@opentelemetry/api@1.9.0': {}
 
   '@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0)':
@@ -8937,17 +8877,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@opentelemetry/otlp-transformer@0.57.2(@opentelemetry/api@1.9.0)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.57.2
-      '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-logs': 0.57.2(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-metrics': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 1.30.1(@opentelemetry/api@1.9.0)
-      protobufjs: 7.5.4
-
   '@opentelemetry/propagator-b3@1.30.1(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
@@ -8963,19 +8892,6 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.28.0
-
-  '@opentelemetry/sdk-logs@0.57.2(@opentelemetry/api@1.9.0)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.57.2
-      '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.30.1(@opentelemetry/api@1.9.0)
-
-  '@opentelemetry/sdk-metrics@1.30.1(@opentelemetry/api@1.9.0)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.30.1(@opentelemetry/api@1.9.0)
 
   '@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0)':
     dependencies:
@@ -9368,29 +9284,6 @@ snapshots:
     dependencies:
       prettier: 3.6.2
       pug-lexer: 5.0.1
-
-  '@protobufjs/aspromise@1.1.2': {}
-
-  '@protobufjs/base64@1.1.2': {}
-
-  '@protobufjs/codegen@2.0.4': {}
-
-  '@protobufjs/eventemitter@1.1.0': {}
-
-  '@protobufjs/fetch@1.1.0':
-    dependencies:
-      '@protobufjs/aspromise': 1.1.2
-      '@protobufjs/inquire': 1.1.0
-
-  '@protobufjs/float@1.0.2': {}
-
-  '@protobufjs/inquire@1.1.0': {}
-
-  '@protobufjs/path@1.1.2': {}
-
-  '@protobufjs/pool@1.1.0': {}
-
-  '@protobufjs/utf8@1.1.0': {}
 
   '@quansync/fs@0.1.5':
     dependencies:
@@ -10094,13 +9987,13 @@ snapshots:
 
   '@vueuse/metadata@14.0.0': {}
 
-  '@vueuse/nuxt@14.0.0(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.24(typescript@5.9.3))':
+  '@vueuse/nuxt@14.0.0(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.24(typescript@5.9.3))':
     dependencies:
       '@nuxt/kit': 4.2.0(magicast@0.5.1)
       '@vueuse/core': 14.0.0(vue@3.5.24(typescript@5.9.3))
       '@vueuse/metadata': 14.0.0
       local-pkg: 1.1.2
-      nuxt: 4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
+      nuxt: 4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
       vue: 3.5.24(typescript@5.9.3)
     transitivePeerDependencies:
       - magicast
@@ -11556,7 +11449,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ipx@3.1.1(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2):
+  ipx@3.1.1(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2):
     dependencies:
       '@fastify/accept-negotiator': 2.0.1
       citty: 0.1.6
@@ -11572,7 +11465,7 @@ snapshots:
       sharp: 0.34.4
       svgo: 4.0.0
       ufo: 1.6.1
-      unstorage: 1.17.2(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
+      unstorage: 1.17.2(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
       xss: 1.0.15
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -11903,8 +11796,6 @@ snapshots:
       ms: 2.1.3
       safe-stable-stringify: 2.5.0
       triple-beam: 1.4.1
-
-  long@5.3.2: {}
 
   longest-streak@3.1.0: {}
 
@@ -12358,7 +12249,7 @@ snapshots:
 
   netlify-redirector@0.5.0: {}
 
-  nitropack@2.12.9(@netlify/blobs@10.3.3)(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)):
+  nitropack@2.12.9(@netlify/blobs@10.4.1)(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@rollup/plugin-alias': 5.1.1(rollup@4.52.5)
@@ -12425,7 +12316,7 @@ snapshots:
       unenv: 2.0.0-rc.24
       unimport: 5.5.0
       unplugin-utils: 0.3.1
-      unstorage: 1.17.2(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
+      unstorage: 1.17.2(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2)
       untyped: 2.0.0
       unwasm: 0.3.11
       youch: 4.1.0-beta.12
@@ -12541,16 +12432,16 @@ snapshots:
 
   nuxt-define@1.0.0: {}
 
-  nuxt@4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1):
+  nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1):
     dependencies:
       '@dxup/nuxt': 0.2.1(magicast@0.5.1)
       '@nuxt/cli': 3.30.0(magicast@0.5.1)
       '@nuxt/devtools': 3.0.1(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(vue@3.5.24(typescript@5.9.3))
       '@nuxt/kit': 4.2.1(magicast@0.5.1)
-      '@nuxt/nitro-server': 4.2.1(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(ioredis@5.8.2)(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(typescript@5.9.3)
+      '@nuxt/nitro-server': 4.2.1(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(ioredis@5.8.2)(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(typescript@5.9.3)
       '@nuxt/schema': 4.2.1
       '@nuxt/telemetry': 2.6.6(magicast@0.5.1)
-      '@nuxt/vite-builder': 4.2.1(@types/node@24.10.1)(eslint@9.32.0(jiti@2.6.1))(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.3.3)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3))(yaml@2.8.1)
+      '@nuxt/vite-builder': 4.2.1(@types/node@24.10.1)(eslint@9.32.0(jiti@2.6.1))(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.24)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3))(yaml@2.8.1)
       '@unhead/vue': 2.0.19(vue@3.5.24(typescript@5.9.3))
       '@vue/shared': 3.5.23
       c12: 3.3.1(magicast@0.5.1)
@@ -13276,21 +13167,6 @@ snapshots:
       prosemirror-model: 1.25.4
       prosemirror-state: 1.4.4
       prosemirror-view: 1.41.3
-
-  protobufjs@7.5.4:
-    dependencies:
-      '@protobufjs/aspromise': 1.1.2
-      '@protobufjs/base64': 1.1.2
-      '@protobufjs/codegen': 2.0.4
-      '@protobufjs/eventemitter': 1.1.0
-      '@protobufjs/fetch': 1.1.0
-      '@protobufjs/float': 1.0.2
-      '@protobufjs/inquire': 1.1.0
-      '@protobufjs/path': 1.1.2
-      '@protobufjs/pool': 1.1.0
-      '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.10.1
-      long: 5.3.2
 
   protocols@2.0.2: {}
 
@@ -14244,7 +14120,7 @@ snapshots:
       picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
-  unstorage@1.17.2(@netlify/blobs@10.3.3)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2):
+  unstorage@1.17.2(@netlify/blobs@10.4.1)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(ioredis@5.8.2):
     dependencies:
       anymatch: 3.1.3
       chokidar: 4.0.3
@@ -14255,7 +14131,7 @@ snapshots:
       ofetch: 1.5.1
       ufo: 1.6.1
     optionalDependencies:
-      '@netlify/blobs': 10.3.3
+      '@netlify/blobs': 10.4.1
       db0: 0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))
       ioredis: 5.8.2
 
@@ -14307,6 +14183,8 @@ snapshots:
   util-deprecate@1.0.2: {}
 
   uuid@11.1.0: {}
+
+  uuid@13.0.0: {}
 
   validate-npm-package-license@3.0.4:
     dependencies:
