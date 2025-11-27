@@ -65,10 +65,10 @@ importers:
         version: 3.1.5
       '@vueuse/core':
         specifier: ^14.0.0
-        version: 14.0.0(vue@3.5.25(typescript@5.9.3))
+        version: 14.1.0(vue@3.5.25(typescript@5.9.3))
       '@vueuse/nuxt':
         specifier: ^14.0.0
-        version: 14.0.0(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.25)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.25(typescript@5.9.3))
+        version: 14.1.0(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.25)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.25(typescript@5.9.3))
       drizzle-kit:
         specifier: ^0.31.6
         version: 0.31.7
@@ -2705,22 +2705,22 @@ packages:
   '@vue/shared@3.5.25':
     resolution: {integrity: sha512-AbOPdQQnAnzs58H2FrrDxYj/TJfmeS2jdfEEhgiKINy+bnOANmVizIEgq1r+C5zsbs6l1CCQxtcj71rwNQ4jWg==}
 
-  '@vueuse/core@14.0.0':
-    resolution: {integrity: sha512-d6tKRWkZE8IQElX2aHBxXOMD478fHIYV+Dzm2y9Ag122ICBpNKtGICiXKOhWU3L1kKdttDD9dCMS4bGP3jhCTQ==}
+  '@vueuse/core@14.1.0':
+    resolution: {integrity: sha512-rgBinKs07hAYyPF834mDTigH7BtPqvZ3Pryuzt1SD/lg5wEcWqvwzXXYGEDb2/cP0Sj5zSvHl3WkmMELr5kfWw==}
     peerDependencies:
       vue: ^3.5.0
 
-  '@vueuse/metadata@14.0.0':
-    resolution: {integrity: sha512-6yoGqbJcMldVCevkFiHDBTB1V5Hq+G/haPlGIuaFZHpXC0HADB0EN1ryQAAceiW+ryS3niUwvdFbGiqHqBrfVA==}
+  '@vueuse/metadata@14.1.0':
+    resolution: {integrity: sha512-7hK4g015rWn2PhKcZ99NyT+ZD9sbwm7SGvp7k+k+rKGWnLjS/oQozoIZzWfCewSUeBmnJkIb+CNr7Zc/EyRnnA==}
 
-  '@vueuse/nuxt@14.0.0':
-    resolution: {integrity: sha512-6DNZ1DLw3UI52TtVX4jmL8oD/L3jFgtWeQmsSXP+0myMhpmlBpWB2xe1x5UdwdHly9j1Fq9DI8wz+LsW6wvdeg==}
+  '@vueuse/nuxt@14.1.0':
+    resolution: {integrity: sha512-zw8WSgRrdtsA1daqlFl5ojoTJnvWad/IbMIcHw4EN8Wci09koeFfh5/oKbkKeIQ3gzihvr9x0bu8BVz8Z2auSg==}
     peerDependencies:
       nuxt: ^3.0.0 || ^4.0.0-0
       vue: ^3.5.0
 
-  '@vueuse/shared@14.0.0':
-    resolution: {integrity: sha512-mTCA0uczBgurRlwVaQHfG0Ja7UdGe4g9mwffiJmvLiTtp1G4AQyIjej6si/k8c8pUwTfVpNufck+23gXptPAkw==}
+  '@vueuse/shared@14.1.0':
+    resolution: {integrity: sha512-EcKxtYvn6gx1F8z9J5/rsg3+lTQnvOruQd8fUecW99DCK04BkWD7z5KQ/wTAx+DazyoEE9dJt/zV8OIEQbM6kw==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -3644,8 +3644,8 @@ packages:
   electron-to-chromium@1.5.247:
     resolution: {integrity: sha512-bCkfEJNE5EOhEsGpgbvgUAXYP/uAZeN9GCd9bPGjm2/uiLdpoiZnxrBTbWT1nbZs1y6UqN7hatM3hOB4X1kXUQ==}
 
-  electron-to-chromium@1.5.259:
-    resolution: {integrity: sha512-I+oLXgpEJzD6Cwuwt1gYjxsDmu/S/Kd41mmLA3O+/uH2pFRO/DvOjUyGozL8j3KeLV6WyZ7ssPwELMsXCcsJAQ==}
+  electron-to-chromium@1.5.262:
+    resolution: {integrity: sha512-NlAsMteRHek05jRUxUR0a5jpjYq9ykk6+kO0yRaMi5moe7u0fVIOeQ3Y30A8dIiWFBNUoQGi1ljb1i5VtS9WQQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -8612,12 +8612,12 @@ snapshots:
 
   '@nuxt/kit@4.2.0(magicast@0.5.1)':
     dependencies:
-      c12: 3.3.1(magicast@0.5.1)
+      c12: 3.3.2(magicast@0.5.1)
       consola: 3.4.2
       defu: 6.1.4
       destr: 2.0.5
       errx: 0.1.0
-      exsolve: 1.0.7
+      exsolve: 1.0.8
       ignore: 7.0.5
       jiti: 2.6.1
       klona: 2.0.6
@@ -10025,27 +10025,27 @@ snapshots:
 
   '@vue/shared@3.5.25': {}
 
-  '@vueuse/core@14.0.0(vue@3.5.25(typescript@5.9.3))':
+  '@vueuse/core@14.1.0(vue@3.5.25(typescript@5.9.3))':
     dependencies:
       '@types/web-bluetooth': 0.0.21
-      '@vueuse/metadata': 14.0.0
-      '@vueuse/shared': 14.0.0(vue@3.5.25(typescript@5.9.3))
+      '@vueuse/metadata': 14.1.0
+      '@vueuse/shared': 14.1.0(vue@3.5.25(typescript@5.9.3))
       vue: 3.5.25(typescript@5.9.3)
 
-  '@vueuse/metadata@14.0.0': {}
+  '@vueuse/metadata@14.1.0': {}
 
-  '@vueuse/nuxt@14.0.0(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.25)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.25(typescript@5.9.3))':
+  '@vueuse/nuxt@14.1.0(magicast@0.5.1)(nuxt@4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.25)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(vue@3.5.25(typescript@5.9.3))':
     dependencies:
-      '@nuxt/kit': 4.2.0(magicast@0.5.1)
-      '@vueuse/core': 14.0.0(vue@3.5.25(typescript@5.9.3))
-      '@vueuse/metadata': 14.0.0
+      '@nuxt/kit': 4.2.1(magicast@0.5.1)
+      '@vueuse/core': 14.1.0(vue@3.5.25(typescript@5.9.3))
+      '@vueuse/metadata': 14.1.0
       local-pkg: 1.1.2
       nuxt: 4.2.1(@netlify/blobs@10.4.1)(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.25)(db0@0.3.4(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0)))(drizzle-orm@0.44.7(@cloudflare/workers-types@4.20250826.0)(@opentelemetry/api@1.9.0))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.52.5)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.1(@types/node@24.10.1)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
       vue: 3.5.25(typescript@5.9.3)
     transitivePeerDependencies:
       - magicast
 
-  '@vueuse/shared@14.0.0(vue@3.5.25(typescript@5.9.3))':
+  '@vueuse/shared@14.1.0(vue@3.5.25(typescript@5.9.3))':
     dependencies:
       vue: 3.5.25(typescript@5.9.3)
 
@@ -10347,7 +10347,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.8.31
       caniuse-lite: 1.0.30001757
-      electron-to-chromium: 1.5.259
+      electron-to-chromium: 1.5.262
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
@@ -10891,7 +10891,7 @@ snapshots:
 
   electron-to-chromium@1.5.247: {}
 
-  electron-to-chromium@1.5.259: {}
+  electron-to-chromium@1.5.262: {}
 
   emoji-regex@8.0.0: {}
 
