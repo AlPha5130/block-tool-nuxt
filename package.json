@@ -19,7 +19,7 @@
     "@netlify/neon": "^0.1.0",
     "@netlify/nuxt": "0.2.14",
     "check-password-strength": "^3.0.0",
-    "drizzle-orm": "^0.44.7",
+    "drizzle-orm": "^0.45.0",
     "nuxt": "^4.2.1",
     "nuxt-auth-utils": "^0.5.25",
     "otplib": "^12.0.1",
