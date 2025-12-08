@@ -13,7 +13,7 @@ importers:
         version: 7.17.3(@codemirror/language@6.11.3)(@codemirror/state@6.5.2)(@codemirror/view@6.38.8)(typescript@5.9.3)
       '@milkdown/theme-nord':
         specifier: ^7.17.2
-        version: 7.17.2
+        version: 7.17.3
       '@milkdown/vue':
         specifier: ^7.17.2
         version: 7.17.2(@codemirror/language@6.11.3)(@codemirror/state@6.5.2)(@codemirror/view@6.38.8)(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.4)(typescript@5.9.3)(vue@3.5.25(typescript@5.9.3))
@@ -1291,8 +1291,8 @@ packages:
   '@milkdown/prose@7.17.3':
     resolution: {integrity: sha512-ZgHUJGKWwIo52TrBzeStz7wsrKBineJ1b1FJMtsJjC9RElXaYzZZEmT7vP1aItknX8UXDr1m0a4fWKcCtykcjw==}
 
-  '@milkdown/theme-nord@7.17.2':
-    resolution: {integrity: sha512-o+m05aJA7HvcUrZttbslYBmOABxhvUnp52VFbnVnQRDfe1L2ynhoWOI/c/zpqOM9B/iyVYjGDi3z7XI8fwqAgQ==}
+  '@milkdown/theme-nord@7.17.3':
+    resolution: {integrity: sha512-gdCLQQ6N0NB1BLasjFGzf4jxbokA5DuI2Nl33kinvtJmzQQMuTx2fZqhztollLQnlMf9odGqX6gu5rD6xWRjkg==}
 
   '@milkdown/transformer@7.17.2':
     resolution: {integrity: sha512-D7mS4r4cJyvnoGvD7Bo+rlfiKNHAgDd8YgGQLITu83nuaYXicd/ybnARzJCO+w7BixIZFsbwl9B+MdP4qlI+cA==}
@@ -8468,11 +8468,11 @@ snapshots:
       prosemirror-transform: 1.10.5
       prosemirror-view: 1.41.4
 
-  '@milkdown/theme-nord@7.17.2':
+  '@milkdown/theme-nord@7.17.3':
     dependencies:
-      '@milkdown/core': 7.17.2
-      '@milkdown/ctx': 7.17.2
-      '@milkdown/prose': 7.17.2
+      '@milkdown/core': 7.17.3
+      '@milkdown/ctx': 7.17.3
+      '@milkdown/prose': 7.17.3
       clsx: 2.1.1
     transitivePeerDependencies:
       - supports-color
