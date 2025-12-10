@@ -75,6 +75,9 @@ importers:
       drizzle-kit:
         specifier: beta
         version: 1.0.0-beta.2-7745ed5
+      drizzle-zod:
+        specifier: ^0.8.3
+        version: 0.8.3(drizzle-orm@1.0.0-beta.2-7745ed5(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(zod@4.1.13)
       pinia:
         specifier: ^3.0.4
         version: 3.0.4(typescript@5.9.3)(vue@3.5.25(typescript@5.9.3))
@@ -3593,6 +3596,12 @@ packages:
         optional: true
       sqlite3:
         optional: true
+
+  drizzle-zod@0.8.3:
+    resolution: {integrity: sha512-66yVOuvGhKJnTdiqj1/Xaaz9/qzOdRJADpDa68enqS6g3t0kpNkwNYjUuaeXgZfO/UWuIM9HIhSlJ6C5ZraMww==}
+    peerDependencies:
+      drizzle-orm: '>=0.36.0'
+      zod: ^3.25.0 || ^4.0.0
 
   dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
@@ -11012,6 +11021,11 @@ snapshots:
       '@neondatabase/serverless': 0.10.4
       '@opentelemetry/api': 1.9.0
       '@types/pg': 8.11.6
+
+  drizzle-zod@0.8.3(drizzle-orm@1.0.0-beta.2-7745ed5(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(zod@4.1.13):
+    dependencies:
+      drizzle-orm: 1.0.0-beta.2-7745ed5(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)
+      zod: 4.1.13
 
   dunder-proto@1.0.1:
     dependencies:
