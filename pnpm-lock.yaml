@@ -22,16 +22,16 @@ importers:
         version: 0.1.0
       '@netlify/nuxt':
         specifier: 0.2.15
-        version: 0.2.15(@azure/identity@4.13.0)(@netlify/api@14.0.12)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.3)
+        version: 0.2.15(@azure/identity@4.13.0)(@netlify/api@14.0.12)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.3)
       check-password-strength:
         specifier: ^3.0.0
         version: 3.0.0
       drizzle-orm:
         specifier: beta
-        version: 1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)
+        version: 1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)
       nuxt:
         specifier: ^4.2.1
-        version: 4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2)
+        version: 4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2)
       nuxt-auth-utils:
         specifier: ^0.5.25
         version: 0.5.26(magicast@0.5.1)
@@ -50,7 +50,7 @@ importers:
     devDependencies:
       '@nuxtjs/i18n':
         specifier: ^10.2.1
-        version: 10.2.1(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@vue/compiler-dom@3.5.25)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.3)(vue@3.5.25(typescript@5.9.3))
+        version: 10.2.1(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@vue/compiler-dom@3.5.25)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.3)(vue@3.5.25(typescript@5.9.3))
       '@prettier/plugin-pug':
         specifier: ^3.4.2
         version: 3.4.2(prettier@3.7.4)
@@ -71,13 +71,13 @@ importers:
         version: 14.1.0(vue@3.5.25(typescript@5.9.3))
       '@vueuse/nuxt':
         specifier: ^14.1.0
-        version: 14.1.0(magicast@0.5.1)(nuxt@4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))
+        version: 14.1.0(magicast@0.5.1)(nuxt@4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))
       drizzle-kit:
         specifier: beta
-        version: 1.0.0-beta.2-58a4521
+        version: 1.0.0-beta.2-3a98f3a
       drizzle-zod:
         specifier: ^0.8.3
-        version: 0.8.3(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(zod@4.1.13)
+        version: 0.8.3(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(zod@4.2.0)
       pinia:
         specifier: ^3.0.4
         version: 3.0.4(typescript@5.9.3)(vue@3.5.25(typescript@5.9.3))
@@ -98,7 +98,7 @@ importers:
         version: 66.5.10(@unocss/webpack@66.5.10(webpack@5.101.0(esbuild@0.25.12)))(postcss@8.5.6)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))
       zod:
         specifier: ^4.1.13
-        version: 4.1.13
+        version: 4.2.0
 
 packages:
 
@@ -3493,12 +3493,12 @@ packages:
     resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
 
-  drizzle-kit@1.0.0-beta.2-58a4521:
-    resolution: {integrity: sha512-5mENi77XK3Q6G6Pry1v04m7PCwhJjm9lMc3+5SuyvejBfcuSOpZkNdcDr+G7gPon6uhExSkfbIz3Rf+teN/qHw==}
+  drizzle-kit@1.0.0-beta.2-3a98f3a:
+    resolution: {integrity: sha512-YMFiY0uBZ3+fx+wSYSGXeC1MaL16/jUX6B+MFFsdYoFSF8/AH4ztBp+uU/94/XIOw6QxjJXavCNITx2TXoiHbA==}
     hasBin: true
 
-  drizzle-orm@1.0.0-beta.2-58a4521:
-    resolution: {integrity: sha512-wCm0HoHFklD0hZlffu1TkQkNUvIikV+SCI4FqFcRSjYHZUNnM/X3jvD+TaPCjfB/5f8fo9Hot21f7P0FLPu3Tw==}
+  drizzle-orm@1.0.0-beta.2-3a98f3a:
+    resolution: {integrity: sha512-q2ax54PTJt3tYwzTaZOev/HUWeW3wS8lGY+kC/sq0IRf976avwlnUh6WAcFM23CTNYbQF1nbZd4TwKLXTF7ORw==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -6755,8 +6755,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.1.13:
-    resolution: {integrity: sha512-AvvthqfqrAhNH9dnfmrfKzX5upOdjUVJYFqNSlkmGf64gRaTzlPwz99IHYnVs28qYAybvAlBV+H7pn0saFY4Ig==}
+  zod@4.2.0:
+    resolution: {integrity: sha512-Bd5fw9wlIhtqCCxotZgdTOMwGm1a0u75wARVEY9HMs1X17trvA/lMi4+MGK5EUfYkXVTbX8UDiDKW4OgzHVUZw==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -8349,7 +8349,7 @@ snapshots:
       validate-npm-package-name: 5.0.1
       yaml: 2.8.2
       yargs: 17.7.2
-      zod: 4.1.13
+      zod: 4.2.0
 
   '@netlify/dev-utils@4.3.3':
     dependencies:
@@ -8369,7 +8369,7 @@ snapshots:
       uuid: 13.0.0
       write-file-atomic: 5.0.1
 
-  '@netlify/dev@4.8.4(@azure/identity@4.13.0)(@netlify/api@14.0.12)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)(rollup@4.53.3)':
+  '@netlify/dev@4.8.4(@azure/identity@4.13.0)(@netlify/api@14.0.12)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)(rollup@4.53.3)':
     dependencies:
       '@netlify/ai': 0.3.5(@netlify/api@14.0.12)
       '@netlify/blobs': 10.4.3
@@ -8378,7 +8378,7 @@ snapshots:
       '@netlify/edge-functions-dev': 1.0.7
       '@netlify/functions-dev': 1.1.4(rollup@4.53.3)
       '@netlify/headers': 2.1.3
-      '@netlify/images': 1.3.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
+      '@netlify/images': 1.3.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
       '@netlify/redirects': 3.1.4
       '@netlify/runtime': 4.1.11
       '@netlify/static': 3.1.3
@@ -8486,9 +8486,9 @@ snapshots:
     dependencies:
       '@netlify/headers-parser': 9.0.2
 
-  '@netlify/images@1.3.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)':
+  '@netlify/images@1.3.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)':
     dependencies:
-      ipx: 3.1.1(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
+      ipx: 3.1.1(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -8514,9 +8514,9 @@ snapshots:
     dependencies:
       '@neondatabase/serverless': 0.10.4
 
-  '@netlify/nuxt@0.2.15(@azure/identity@4.13.0)(@netlify/api@14.0.12)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.3)':
+  '@netlify/nuxt@0.2.15(@azure/identity@4.13.0)(@netlify/api@14.0.12)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.3)':
     dependencies:
-      '@netlify/dev': 4.8.4(@azure/identity@4.13.0)(@netlify/api@14.0.12)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)(rollup@4.53.3)
+      '@netlify/dev': 4.8.4(@azure/identity@4.13.0)(@netlify/api@14.0.12)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)(rollup@4.53.3)
       '@netlify/dev-utils': 4.3.3
       '@nuxt/kit': 4.2.1(magicast@0.5.1)
       h3: 1.15.4
@@ -8819,7 +8819,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/nitro-server@4.2.2(66351589090f94cb017e9746d8bc12b2)':
+  '@nuxt/nitro-server@4.2.2(a5c3489d40ad98caf5cfa70a1008ed99)':
     dependencies:
       '@nuxt/devalue': 2.0.2
       '@nuxt/kit': 4.2.2(magicast@0.5.1)
@@ -8836,15 +8836,15 @@ snapshots:
       impound: 1.0.0
       klona: 2.0.6
       mocked-exports: 0.1.1
-      nitropack: 2.12.9(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))
-      nuxt: 4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2)
+      nitropack: 2.12.9(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))
+      nuxt: 4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2)
       pathe: 2.0.3
       pkg-types: 2.3.0
       radix3: 1.1.2
       std-env: 3.10.0
       ufo: 1.6.1
       unctx: 2.4.1
-      unstorage: 1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
+      unstorage: 1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
       vue: 3.5.25(typescript@5.9.3)
       vue-bundle-renderer: 2.2.0
       vue-devtools-stub: 0.1.0
@@ -8908,7 +8908,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/vite-builder@4.2.2(a90a3299f5a6ed01d844cca6decd7f2a)':
+  '@nuxt/vite-builder@4.2.2(826681fd65915ad3ea100b8540e16813)':
     dependencies:
       '@nuxt/kit': 4.2.2(magicast@0.5.1)
       '@rollup/plugin-replace': 6.0.3(rollup@4.53.3)
@@ -8928,7 +8928,7 @@ snapshots:
       magic-string: 0.30.21
       mlly: 1.8.0
       mocked-exports: 0.1.1
-      nuxt: 4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2)
+      nuxt: 4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2)
       pathe: 2.0.3
       pkg-types: 2.3.0
       postcss: 8.5.6
@@ -8967,7 +8967,7 @@ snapshots:
       - vue-tsc
       - yaml
 
-  '@nuxtjs/i18n@10.2.1(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@vue/compiler-dom@3.5.25)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.3)(vue@3.5.25(typescript@5.9.3))':
+  '@nuxtjs/i18n@10.2.1(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@vue/compiler-dom@3.5.25)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.3)(vue@3.5.25(typescript@5.9.3))':
     dependencies:
       '@intlify/core': 11.2.2
       '@intlify/h3': 0.7.4
@@ -8994,7 +8994,7 @@ snapshots:
       ufo: 1.6.1
       unplugin: 2.3.11
       unplugin-vue-router: 0.16.2(@vue/compiler-sfc@3.5.25)(typescript@5.9.3)(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))
-      unstorage: 1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
+      unstorage: 1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
       vue-i18n: 11.2.2(vue@3.5.25(typescript@5.9.3))
       vue-router: 4.6.4(vue@3.5.25(typescript@5.9.3))
     transitivePeerDependencies:
@@ -10198,13 +10198,13 @@ snapshots:
 
   '@vueuse/metadata@14.1.0': {}
 
-  '@vueuse/nuxt@14.1.0(magicast@0.5.1)(nuxt@4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))':
+  '@vueuse/nuxt@14.1.0(magicast@0.5.1)(nuxt@4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))':
     dependencies:
       '@nuxt/kit': 4.2.1(magicast@0.5.1)
       '@vueuse/core': 14.1.0(vue@3.5.25(typescript@5.9.3))
       '@vueuse/metadata': 14.1.0
       local-pkg: 1.1.2
-      nuxt: 4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2)
+      nuxt: 4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2)
       vue: 3.5.25(typescript@5.9.3)
     transitivePeerDependencies:
       - magicast
@@ -10850,9 +10850,9 @@ snapshots:
 
   data-uri-to-buffer@4.0.1: {}
 
-  db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)):
+  db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)):
     optionalDependencies:
-      drizzle-orm: 1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)
+      drizzle-orm: 1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)
 
   debug@4.4.3:
     dependencies:
@@ -11003,7 +11003,7 @@ snapshots:
 
   dotenv@17.2.3: {}
 
-  drizzle-kit@1.0.0-beta.2-58a4521:
+  drizzle-kit@1.0.0-beta.2-3a98f3a:
     dependencies:
       '@drizzle-team/brocli': 0.11.0
       '@js-temporal/polyfill': 0.5.1
@@ -11012,7 +11012,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1):
+  drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1):
     dependencies:
       '@types/mssql': 9.1.8
       mssql: 11.0.1
@@ -11022,10 +11022,10 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@types/pg': 8.11.6
 
-  drizzle-zod@0.8.3(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(zod@4.1.13):
+  drizzle-zod@0.8.3(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(zod@4.2.0):
     dependencies:
-      drizzle-orm: 1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)
-      zod: 4.1.13
+      drizzle-orm: 1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)
+      zod: 4.2.0
 
   dunder-proto@1.0.1:
     dependencies:
@@ -11630,7 +11630,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ipx@3.1.1(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2):
+  ipx@3.1.1(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2):
     dependencies:
       '@fastify/accept-negotiator': 2.0.1
       citty: 0.1.6
@@ -11646,7 +11646,7 @@ snapshots:
       sharp: 0.34.5
       svgo: 4.0.0
       ufo: 1.6.1
-      unstorage: 1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
+      unstorage: 1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
       xss: 1.0.15
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -12467,7 +12467,7 @@ snapshots:
 
   netlify-redirector@0.5.0: {}
 
-  nitropack@2.12.9(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)):
+  nitropack@2.12.9(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.1
       '@rollup/plugin-alias': 5.1.1(rollup@4.53.3)
@@ -12488,7 +12488,7 @@ snapshots:
       cookie-es: 2.0.0
       croner: 9.1.0
       crossws: 0.3.5
-      db0: 0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))
+      db0: 0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))
       defu: 6.1.4
       destr: 2.0.5
       dot-prop: 10.1.0
@@ -12534,7 +12534,7 @@ snapshots:
       unenv: 2.0.0-rc.24
       unimport: 5.5.0
       unplugin-utils: 0.3.1
-      unstorage: 1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
+      unstorage: 1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2)
       untyped: 2.0.0
       unwasm: 0.3.11
       youch: 4.1.0-beta.13
@@ -12650,16 +12650,16 @@ snapshots:
 
   nuxt-define@1.0.0: {}
 
-  nuxt@4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2):
+  nuxt@4.2.2(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(@parcel/watcher@2.5.1)(@types/node@24.10.4)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))(eslint@9.32.0(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(yaml@2.8.2):
     dependencies:
       '@dxup/nuxt': 0.2.2(magicast@0.5.1)
       '@nuxt/cli': 3.31.2(cac@6.7.14)(magicast@0.5.1)
       '@nuxt/devtools': 3.1.1(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(sass-embedded@1.96.0)(sass@1.96.0)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))
       '@nuxt/kit': 4.2.2(magicast@0.5.1)
-      '@nuxt/nitro-server': 4.2.2(66351589090f94cb017e9746d8bc12b2)
+      '@nuxt/nitro-server': 4.2.2(a5c3489d40ad98caf5cfa70a1008ed99)
       '@nuxt/schema': 4.2.2
       '@nuxt/telemetry': 2.6.6(magicast@0.5.1)
-      '@nuxt/vite-builder': 4.2.2(a90a3299f5a6ed01d844cca6decd7f2a)
+      '@nuxt/vite-builder': 4.2.2(826681fd65915ad3ea100b8540e16813)
       '@unhead/vue': 2.0.19(vue@3.5.25(typescript@5.9.3))
       '@vue/shared': 3.5.25
       c12: 3.3.2(magicast@0.5.1)
@@ -14408,7 +14408,7 @@ snapshots:
       picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
-  unstorage@1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2):
+  unstorage@1.17.3(@azure/identity@4.13.0)(@netlify/blobs@10.4.3)(db0@0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1)))(ioredis@5.8.2):
     dependencies:
       anymatch: 3.1.3
       chokidar: 4.0.3
@@ -14421,7 +14421,7 @@ snapshots:
     optionalDependencies:
       '@azure/identity': 4.13.0
       '@netlify/blobs': 10.4.3
-      db0: 0.3.4(drizzle-orm@1.0.0-beta.2-58a4521(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))
+      db0: 0.3.4(drizzle-orm@1.0.0-beta.2-3a98f3a(@cloudflare/workers-types@4.20250826.0)(@neondatabase/serverless@0.10.4)(@opentelemetry/api@1.9.0)(@types/mssql@9.1.8)(@types/pg@8.11.6)(mssql@11.0.1))
       ioredis: 5.8.2
 
   untun@0.1.3:
@@ -14853,6 +14853,6 @@ snapshots:
 
   zod@3.25.76: {}
 
-  zod@4.1.13: {}
+  zod@4.2.0: {}
 
   zwitch@2.0.4: {}
